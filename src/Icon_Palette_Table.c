@@ -3,6 +3,7 @@
 const u8 gMonIconPaletteIndices[NUM_SPECIES] =
 {
 	[SPECIES_NONE] = 0x0,
+	[SPECIES_BULLFROCK] = 0x2,
 	[SPECIES_BULBASAUR] = 0x1,
 	[SPECIES_IVYSAUR] = 0x1,
 	[SPECIES_VENUSAUR] = 0x1,

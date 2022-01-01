@@ -5,6 +5,7 @@
 const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES] =
 {
 	[SPECIES_NONE] =                 {gFrontSprite000NonePal, SPECIES_NONE, 0x0},
+	[SPECIES_BULLFROCK] =            {gFrontSprite1234BullfrockPal, SPECIES_BULLFROCK, 0x0},
 	[SPECIES_BULBASAUR] =            {gFrontSprite001BulbasaurPal, SPECIES_BULBASAUR, 0x0},
 	[SPECIES_IVYSAUR] =              {gFrontSprite002IvysaurPal, SPECIES_IVYSAUR, 0x0},
 	[SPECIES_VENUSAUR] =             {gFrontSprite003VenusaurPal, SPECIES_VENUSAUR, 0x0},
@@ -444,8 +445,8 @@ const struct CompressedSpritePalette gMonPaletteTable[NUM_SPECIES] =
 	[SPECIES_UNOWN_Z] =              {gFrontSprite201UnownPal, SPECIES_UNOWN, 0x0},
 	[SPECIES_UNOWN_EXCLAMATION] =    {gFrontSprite201UnownPal, SPECIES_UNOWN, 0x0},
 	[SPECIES_UNOWN_QUESTION] =       {gFrontSprite201UnownPal, SPECIES_UNOWN, 0x0},
-	
-//New Data Starts Here	
+
+//New Data Starts Here
 	[SPECIES_TURTWIG] =              {gFrontSprite440TurtwigPal, SPECIES_TURTWIG, 0x0},
 	[SPECIES_GROTLE] =               {gFrontSprite441GrotlePal, SPECIES_GROTLE, 0x0},
 	[SPECIES_TORTERRA] =             {gFrontSprite442TorterraPal, SPECIES_TORTERRA, 0x0},

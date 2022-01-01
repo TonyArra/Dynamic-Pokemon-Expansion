@@ -1274,4 +1274,5 @@ const struct CompressedSpriteSheet gMonBackPicTable[NUM_SPECIES] =
 	[SPECIES_DURALUDON_GIGA] =       {gBackShinySpriteGigaDuraludonTiles, (64 * 64) / 2, SPECIES_DURALUDON_GIGA},
 	[SPECIES_URSHIFU_SINGLE_GIGA] =  {gBackShinySpriteGigaUrshifuSingleTiles, (64 * 64) / 2, SPECIES_URSHIFU_SINGLE_GIGA},
 	[SPECIES_URSHIFU_RAPID_GIGA] =   {gBackShinySpriteGigaUrshifuRapidTiles, (64 * 64) / 2, SPECIES_URSHIFU_RAPID_GIGA},
+	[SPECIES_BULLFROCK] =   {gBackShinySprite1234BullfrockTiles, (64 * 64) / 2, SPECIES_BULLFROCK},
 };

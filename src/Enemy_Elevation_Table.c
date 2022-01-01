@@ -3,6 +3,7 @@
 const u8 gEnemyMonElevation[NUM_SPECIES] =
 {
 	[SPECIES_NONE] = 0x0,
+	[SPECIES_BULLFROCK] = 0x0,
 	[SPECIES_BULBASAUR] = 0x0,
 	[SPECIES_IVYSAUR] = 0x0,
 	[SPECIES_VENUSAUR] = 0x0,

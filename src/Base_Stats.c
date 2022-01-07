@@ -7,9 +7,42 @@
 // 255 (MON_GENDERLESS) is reserved for genderless Pokémon.
 #define PERCENT_FEMALE(percent) min(254, ((percent * 255) / 100))
 
-const struct BaseStats gBaseStats[] = 
+const struct BaseStats gBaseStats[] =
 {
 	[SPECIES_NONE] = {0},
+
+	[SPECIES_BULLFROCK] =
+	{
+		.baseHP 		= 45,
+		.baseAttack 	= 49,
+		.baseDefense 	= 49,
+		.baseSpAttack 	= 65,
+		.baseSpDefense 	= 65,
+		.baseSpeed 		= 45,
+		.type1 = TYPE_ROCK,
+		.type2 = TYPE_WATER,
+		.catchRate = 45,
+		.expYield = 64,
+		.evYield_HP 		= 0,
+		.evYield_Attack 	= 0,
+		.evYield_Defense 	= 0,
+		.evYield_SpAttack 	= 1,
+		.evYield_SpDefense 	= 0,
+		.evYield_Speed 		= 0,
+		.item1 = ITEM_NONE,
+		.item2 = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(12.5),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_SLOW,
+		.eggGroup1 = EGG_GROUP_MONSTER,
+		.eggGroup2 = EGG_GROUP_GRASS,
+		.ability1 = ABILITY_OVERGROW,
+		.ability2 = ABILITY_NONE,
+		.safariZoneFleeRate = 0,
+		.hiddenAbility = ABILITY_CHLOROPHYLL,
+		.noFlip = TRUE,
+	},
 
 	[SPECIES_BULBASAUR] =
 	{
@@ -34792,7 +34825,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MELTAN] =
 	{
 		.baseHP 		= 46,
@@ -34825,7 +34858,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MELMETAL] =
 	{
 		.baseHP 		= 135,
@@ -34858,7 +34891,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_SURFING] =
 	{
 		.baseHP 		= 35,
@@ -34891,7 +34924,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_FLYING] =
 	{
 		.baseHP 		= 35,
@@ -34924,7 +34957,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_COSPLAY] =
 	{
 		.baseHP 		= 35,
@@ -34957,7 +34990,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_LIBRE] =
 	{
 		.baseHP 		= 35,
@@ -34990,7 +35023,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_POP_STAR] =
 	{
 		.baseHP 		= 35,
@@ -35023,7 +35056,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_ROCK_STAR] =
 	{
 		.baseHP 		= 35,
@@ -35056,7 +35089,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_BELLE] =
 	{
 		.baseHP 		= 35,
@@ -35089,7 +35122,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_PHD] =
 	{
 		.baseHP 		= 35,
@@ -35122,7 +35155,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_ORIGINAL] =
 	{
 		.baseHP 		= 35,
@@ -35155,7 +35188,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_HOENN] =
 	{
 		.baseHP 		= 35,
@@ -35188,7 +35221,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_SINNOH] =
 	{
 		.baseHP 		= 35,
@@ -35221,7 +35254,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_UNOVA] =
 	{
 		.baseHP 		= 35,
@@ -35254,7 +35287,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_KALOS] =
 	{
 		.baseHP 		= 35,
@@ -35287,7 +35320,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_ALOLA] =
 	{
 		.baseHP 		= 35,
@@ -35320,7 +35353,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_CAP_PARTNER] =
 	{
 		.baseHP 		= 35,
@@ -35353,7 +35386,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PICHU_SPIKY] =
 	{
 		.baseHP 		= 20,
@@ -35419,7 +35452,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GROOKEY] =
 	{
 		.baseHP 		= 50,
@@ -35452,7 +35485,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GRASSYSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_THWACKEY] =
 	{
 		.baseHP 		= 70,
@@ -35485,7 +35518,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GRASSYSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_RILLABOOM] =
 	{
 		.baseHP 		= 100,
@@ -35518,7 +35551,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GRASSYSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SCORBUNNY] =
 	{
 		.baseHP 		= 50,
@@ -35551,7 +35584,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PROTEAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_RABOOT] =
 	{
 		.baseHP 		= 65,
@@ -35584,7 +35617,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PROTEAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CINDERACE] =
 	{
 		.baseHP 		= 80,
@@ -35617,7 +35650,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PROTEAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SOBBLE] =
 	{
 		.baseHP 		= 50,
@@ -35650,7 +35683,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SNIPER,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DRIZZILE] =
 	{
 		.baseHP 		= 65,
@@ -35683,7 +35716,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SNIPER,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_INTELEON] =
 	{
 		.baseHP 		= 70,
@@ -35716,7 +35749,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SNIPER,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SKWOVET] =
 	{
 		.baseHP 		= 70,
@@ -35749,7 +35782,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GLUTTONY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GREEDENT] =
 	{
 		.baseHP 		= 120,
@@ -35782,7 +35815,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GLUTTONY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ROOKIDEE] =
 	{
 		.baseHP 		= 38,
@@ -35815,7 +35848,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_BIGPECKS,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CORVISQUIRE] =
 	{
 		.baseHP 		= 68,
@@ -35848,7 +35881,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_BIGPECKS,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CORVIKNIGHT] =
 	{
 		.baseHP 		= 98,
@@ -35881,7 +35914,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MIRRORARMOR,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_BLIPBUG] =
 	{
 		.baseHP 		= 25,
@@ -35914,7 +35947,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TELEPATHY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DOTTLER] =
 	{
 		.baseHP 		= 50,
@@ -35947,7 +35980,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TELEPATHY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ORBEETLE] =
 	{
 		.baseHP 		= 60,
@@ -35980,7 +36013,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TELEPATHY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_NICKIT] =
 	{
 		.baseHP 		= 40,
@@ -36013,7 +36046,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STAKEOUT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_THIEVUL] =
 	{
 		.baseHP 		= 70,
@@ -36046,7 +36079,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STAKEOUT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GOSSIFLEUR] =
 	{
 		.baseHP 		= 40,
@@ -36079,7 +36112,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_EFFECTSPORE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ELDEGOSS] =
 	{
 		.baseHP 		= 60,
@@ -36144,7 +36177,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_BULLETPROOF,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DUBWOOL] =
 	{
 		.baseHP 		= 72,
@@ -36177,7 +36210,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_BULLETPROOF,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CHEWTLE] =
 	{
 		.baseHP 		= 50,
@@ -36210,7 +36243,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SWIFTSWIM,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DREDNAW] =
 	{
 		.baseHP 		= 90,
@@ -36243,7 +36276,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SWIFTSWIM,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_YAMPER] =
 	{
 		.baseHP 		= 59,
@@ -36276,7 +36309,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_RATTLED,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_BOLTUND] =
 	{
 		.baseHP 		= 69,
@@ -36309,7 +36342,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_COMPETITIVE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ROLYCOLY] =
 	{
 		.baseHP 		= 30,
@@ -36342,7 +36375,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLASHFIRE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CARKOL] =
 	{
 		.baseHP 		= 80,
@@ -36375,7 +36408,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLASHFIRE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_COALOSSAL] =
 	{
 		.baseHP 		= 110,
@@ -36408,7 +36441,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLASHFIRE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_APPLIN] =
 	{
 		.baseHP 		= 40,
@@ -36441,7 +36474,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_BULLETPROOF,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_FLAPPLE] =
 	{
 		.baseHP 		= 70,
@@ -36474,7 +36507,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HUSTLE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_APPLETUN] =
 	{
 		.baseHP 		= 110,
@@ -36507,7 +36540,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_THICKFAT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SILICOBRA] =
 	{
 		.baseHP 		= 52,
@@ -36540,7 +36573,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SANDVEIL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SANDACONDA] =
 	{
 		.baseHP 		= 72,
@@ -36573,7 +36606,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SANDVEIL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CRAMORANT] =
 	{
 		.baseHP 		= 70,
@@ -36606,7 +36639,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ARROKUDA] =
 	{
 		.baseHP 		= 41,
@@ -36639,7 +36672,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STALWART,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_BARRASKEWDA] =
 	{
 		.baseHP 		= 61,
@@ -36672,7 +36705,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STALWART,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_TOXEL] =
 	{
 		.baseHP 		= 40,
@@ -36705,7 +36738,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_KLUTZ,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_TOXTRICITY] =
 	{
 		.baseHP 		= 75,
@@ -36738,7 +36771,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-		
+
 	[SPECIES_SIZZLIPEDE] =
 	{
 		.baseHP 		= 50,
@@ -36771,7 +36804,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLAMEBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CENTISKORCH] =
 	{
 		.baseHP 		= 100,
@@ -36804,7 +36837,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLAMEBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CLOBBOPUS] =
 	{
 		.baseHP 		= 50,
@@ -36837,7 +36870,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GRAPPLOCT] =
 	{
 		.baseHP 		= 80,
@@ -36870,7 +36903,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SINISTEA] =
 	{
 		.baseHP 		= 40,
@@ -36903,7 +36936,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_POLTEAGEIST] =
 	{
 		.baseHP 		= 60,
@@ -36936,7 +36969,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_HATENNA] =
 	{
 		.baseHP 		= 42,
@@ -36969,7 +37002,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MAGICBOUNCE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_HATTREM] =
 	{
 		.baseHP 		= 57,
@@ -37002,7 +37035,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MAGICBOUNCE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_HATTERENE] =
 	{
 		.baseHP 		= 57,
@@ -37035,7 +37068,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MAGICBOUNCE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_IMPIDIMP] =
 	{
 		.baseHP 		= 45,
@@ -37068,7 +37101,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PICKPOCKET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MORGREM] =
 	{
 		.baseHP 		= 65,
@@ -37101,7 +37134,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PICKPOCKET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GRIMMSNARL] =
 	{
 		.baseHP 		= 95,
@@ -37134,7 +37167,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PICKPOCKET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_OBSTAGOON] =
 	{
 		.baseHP 		= 93,
@@ -37167,7 +37200,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_DEFIANT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PERRSERKER] =
 	{
 		.baseHP 		= 70,
@@ -37200,7 +37233,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STEELY_SPIRIT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CURSOLA] =
 	{
 		.baseHP 		= 60,
@@ -37233,7 +37266,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PERISH_BODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SIRFETCHD] =
 	{
 		.baseHP 		= 62,
@@ -37266,7 +37299,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SCRAPPY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MR_RIME] =
 	{
 		.baseHP 		= 80,
@@ -37299,7 +37332,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ICEBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_RUNERIGUS] =
 	{
 		.baseHP 		= 58,
@@ -37332,7 +37365,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MILCERY] =
 	{
 		.baseHP 		= 45,
@@ -37365,7 +37398,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ALCREMIE_STRAWBERRY] =
 	{
 		.baseHP 		= 65,
@@ -37398,7 +37431,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_FALINKS] =
 	{
 		.baseHP 		= 65,
@@ -37431,7 +37464,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_DEFIANT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PINCURCHIN] =
 	{
 		.baseHP 		= 48,
@@ -37464,7 +37497,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ELECTRICSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SNOM] =
 	{
 		.baseHP 		= 30,
@@ -37497,7 +37530,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ICESCALES,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_FROSMOTH] =
 	{
 		.baseHP 		= 70,
@@ -37530,7 +37563,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ICESCALES,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_STONJOURNER] =
 	{
 		.baseHP 		= 100,
@@ -37563,7 +37596,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_EISCUE] =
 	{
 		.baseHP 		= 75,
@@ -37596,7 +37629,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-		
+
 	[SPECIES_INDEEDEE] =
 	{
 		.baseHP 		= 60,
@@ -37629,7 +37662,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PSYCHICSURGE,
 		.noFlip = TRUE,
 	},
-		
+
 	[SPECIES_MORPEKO] =
 	{
 		.baseHP 		= 58,
@@ -37662,7 +37695,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CUFANT] =
 	{
 		.baseHP 		= 72,
@@ -37695,8 +37728,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HEAVYMETAL,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_COPPERAJAH] = 
+
+	[SPECIES_COPPERAJAH] =
 	{
 		.baseHP 		= 122,
 		.baseAttack 	= 130,
@@ -37728,7 +37761,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HEAVYMETAL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DRACOZOLT] =
 	{
 		.baseHP 		= 90,
@@ -37761,7 +37794,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SANDRUSH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ARCTOZOLT] =
 	{
 		.baseHP 		= 90,
@@ -37794,7 +37827,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SLUSHRUSH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DRACOVISH] =
 	{
 		.baseHP 		= 90,
@@ -37827,7 +37860,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SANDRUSH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ARCTOVISH] =
 	{
 		.baseHP 		= 90,
@@ -37860,7 +37893,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SLUSHRUSH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DURALUDON] =
 	{
 		.baseHP 		= 70,
@@ -37893,7 +37926,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STALWART,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DREEPY] =
 	{
 		.baseHP 		= 28,
@@ -37926,7 +37959,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DRAKLOAK] =
 	{
 		.baseHP 		= 68,
@@ -37959,7 +37992,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DRAGAPULT] =
 	{
 		.baseHP 		= 88,
@@ -37992,7 +38025,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ZACIAN] =
 	{
 		.baseHP 		= 92,
@@ -38025,7 +38058,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-		
+
 	[SPECIES_ZAMAZENTA] =
 	{
 		.baseHP 		= 92,
@@ -38058,7 +38091,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-		
+
 	[SPECIES_ETERNATUS] =
 	{
 		.baseHP 		= 140,
@@ -38091,7 +38124,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_KUBFU] =
 	{
 		.baseHP 		= 60,
@@ -38124,8 +38157,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					     
-	[SPECIES_URSHIFU_SINGLE] = 
+
+	[SPECIES_URSHIFU_SINGLE] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 130,
@@ -38157,8 +38190,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_ZARUDE] = 
+
+	[SPECIES_ZARUDE] =
 	{
 		.baseHP 		= 105,
 		.baseAttack 	= 120,
@@ -38190,7 +38223,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_REGIELEKI] =
 	{
 		.baseHP 		= 80,
@@ -38223,8 +38256,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_REGIDRAGO] = 
+
+	[SPECIES_REGIDRAGO] =
 	{
 		.baseHP 		= 200,
 		.baseAttack 	= 100,
@@ -38256,8 +38289,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_GLASTRIER] = 
+
+	[SPECIES_GLASTRIER] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 145,
@@ -38289,8 +38322,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_SPECTRIER] = 
+
+	[SPECIES_SPECTRIER] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 65,
@@ -38322,8 +38355,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-		
-	[SPECIES_CALYREX] = 
+
+	[SPECIES_CALYREX] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 80,
@@ -38355,7 +38388,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-			
+
 	[SPECIES_CRAMORANT_GULPING] =
 	{
 		.baseHP 		= 70,
@@ -38388,7 +38421,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_CRAMORANT_GORGING] =
 	{
 		.baseHP 		= 70,
@@ -38421,7 +38454,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_TOXTRICITY_LOW_KEY] =
 	{
 		.baseHP 		= 75,
@@ -38454,7 +38487,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_SINISTEA_CHIPPED] =
 	{
 		.baseHP 		= 40,
@@ -38487,7 +38520,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_POLTEAGEIST_CHIPPED] =
 	{
 		.baseHP 		= 60,
@@ -38520,7 +38553,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_BERRY] =
 	{
 		.baseHP 		= 65,
@@ -38553,7 +38586,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_LOVE] =
 	{
 		.baseHP 		= 65,
@@ -38586,7 +38619,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_CLOVER] =
 	{
 		.baseHP 		= 65,
@@ -38619,7 +38652,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_FLOWER] =
 	{
 		.baseHP 		= 65,
@@ -38652,7 +38685,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_RIBBON] =
 	{
 		.baseHP 		= 65,
@@ -38685,7 +38718,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ALCREMIE_STAR] =
 	{
 		.baseHP 		= 65,
@@ -38718,7 +38751,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_EISCUE_NOICE] =
 	{
 		.baseHP 		= 75,
@@ -38751,7 +38784,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_INDEEDEE_FEMALE] =
 	{
 		.baseHP 		= 70,
@@ -38784,7 +38817,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PSYCHICSURGE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_MORPEKO_HANGRY] =
 	{
 		.baseHP 		= 58,
@@ -38817,7 +38850,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ZACIAN_CROWNED] =
 	{
 		.baseHP 		= 92,
@@ -38850,7 +38883,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ZAMAZENTA_CROWNED] =
 	{
 		.baseHP 		= 92,
@@ -38883,7 +38916,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_ETERNATUS_ETERNAMAX] =
 	{
 		.baseHP 		= 255,
@@ -38916,7 +38949,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_URSHIFU_RAPID] =
 	{
 		.baseHP 		= 100,
@@ -38949,8 +38982,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_ZARUDE_DADA] = 
+
+	[SPECIES_ZARUDE_DADA] =
 	{
 		.baseHP 		= 105,
 		.baseAttack 	= 120,
@@ -38982,8 +39015,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_CALYREX_ICE_RIDER] = 
+
+	[SPECIES_CALYREX_ICE_RIDER] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 165,
@@ -39015,8 +39048,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_CALYREX_SHADOW_RIDER] = 
+
+	[SPECIES_CALYREX_SHADOW_RIDER] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 85,
@@ -39048,7 +39081,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MEOWTH_G] =
 	{
 		.baseHP 		= 50,
@@ -39081,7 +39114,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_UNNERVE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PONYTA_G] =
 	{
 		.baseHP 		= 50,
@@ -39114,7 +39147,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ANTICIPATION,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_RAPIDASH_G] =
 	{
 		.baseHP 		= 65,
@@ -39147,7 +39180,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ANTICIPATION,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SLOWPOKE_G] =
 	{
 		.baseHP 		= 90,
@@ -39180,7 +39213,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_REGENERATOR,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SLOWBRO_G] =
 	{
 		.baseHP 		= 95,
@@ -39212,8 +39245,8 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_REGENERATOR,
 		.noFlip = TRUE,
-	}, 
-	
+	},
+
 	[SPECIES_FARFETCHD_G] =
 	{
 		.baseHP 		= 52,
@@ -39246,7 +39279,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SCRAPPY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_KOFFING_G] =
 	{
 		.baseHP 		= 40,
@@ -39279,7 +39312,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STENCH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_WEEZING_G] =
 	{
 		.baseHP 		= 65,
@@ -39312,7 +39345,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MISTYSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MIME_JR_G] =
 	{
 		.baseHP 		= 20,
@@ -39345,7 +39378,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MR_MIME_G] =
 	{
 		.baseHP 		= 50,
@@ -39378,8 +39411,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ICEBODY,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_ARTICUNO_G] = 
+
+	[SPECIES_ARTICUNO_G] =
 	{
 		.baseHP 		= 90,
 		.baseAttack 	= 85,
@@ -39411,8 +39444,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-					      
-	[SPECIES_ZAPDOS_G] = 
+
+	[SPECIES_ZAPDOS_G] =
 	{
 		.baseHP 		= 90,
 		.baseAttack 	= 125,
@@ -39444,7 +39477,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MOLTRES_G] =
 	{
 		.baseHP 		= 90,
@@ -39477,8 +39510,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_SLOWKING_G] = 
+
+	[SPECIES_SLOWKING_G] =
 	{
 		.baseHP 		= 95,
 		.baseAttack 	= 65,
@@ -39509,8 +39542,8 @@ const struct BaseStats gBaseStats[] =
 		.safariZoneFleeRate = 0,
 		.hiddenAbility = ABILITY_REGENERATOR,
 		.noFlip = TRUE,
-	}, 
-	
+	},
+
 	[SPECIES_CORSOLA_G] =
 	{
 		.baseHP 		= 60,
@@ -39543,7 +39576,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CURSEDBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ZIGZAGOON_G] =
 	{
 		.baseHP 		= 38,
@@ -39576,7 +39609,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_QUICKFEET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_LINOONE_G] =
 	{
 		.baseHP 		= 78,
@@ -39609,7 +39642,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_QUICKFEET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DARUMAKA_G] =
 	{
 		.baseHP 		= 70,
@@ -39642,7 +39675,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_INNERFOCUS,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DARMANITAN_G] =
 	{
 		.baseHP 		= 105,
@@ -39675,7 +39708,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ZENMODE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DARMANITAN_G_ZEN] =
 	{
 		.baseHP 		= 105,
@@ -39708,7 +39741,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ZENMODE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_YAMASK_G] =
 	{
 		.baseHP 		= 38,
@@ -39741,7 +39774,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_STUNFISK_G] =
 	{
 		.baseHP 		= 109,
@@ -39774,7 +39807,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_VENUSAUR_GIGA] =
 	{
 		.baseHP 		= 80,
@@ -39807,7 +39840,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_CHLOROPHYLL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CHARIZARD_GIGA] =
 	{
 		.baseHP 		= 78,
@@ -39840,7 +39873,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SOLARPOWER,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_BLASTOISE_GIGA] =
 	{
 		.baseHP 		= 79,
@@ -39873,7 +39906,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_RAINDISH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_BUTTERFREE_GIGA] =
 	{
 		.baseHP 		= 60,
@@ -39906,7 +39939,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TINTEDLENS,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_PIKACHU_GIGA] =
 	{
 		.baseHP 		= 35,
@@ -39939,7 +39972,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_LIGHTNINGROD,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MEOWTH_GIGA] =
 	{
 		.baseHP 		= 40,
@@ -39972,7 +40005,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_UNNERVE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MACHAMP_GIGA] =
 	{
 		.baseHP 		= 90,
@@ -40005,7 +40038,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STEADFAST,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GENGAR_GIGA] =
 	{
 		.baseHP 		= 60,
@@ -40038,7 +40071,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_KINGLER_GIGA] =
 	{
 		.baseHP 		= 55,
@@ -40071,7 +40104,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SHEERFORCE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_LAPRAS_GIGA] =
 	{
 		.baseHP 		= 130,
@@ -40104,7 +40137,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HYDRATION,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_EEVEE_GIGA] =
 	{
 		.baseHP 		= 55,
@@ -40137,7 +40170,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_ANTICIPATION,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SNORLAX_GIGA] =
 	{
 		.baseHP 		= 160,
@@ -40170,7 +40203,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GLUTTONY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GARBODOR_GIGA] =
 	{
 		.baseHP 		= 80,
@@ -40203,7 +40236,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AFTERMATH,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_MELMETAL_GIGA] =
 	{
 		.baseHP 		= 135,
@@ -40236,7 +40269,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_RILLABOOM_GIGA] =
 	{
 		.baseHP 		= 100,
@@ -40269,7 +40302,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_GRASSYSURGE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CINDERACE_GIGA] =
 	{
 		.baseHP 		= 80,
@@ -40302,7 +40335,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PROTEAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_INTELEON_GIGA] =
 	{
 		.baseHP 		= 70,
@@ -40335,7 +40368,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SNIPER,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CORVIKNIGHT_GIGA] =
 	{
 		.baseHP 		= 98,
@@ -40368,7 +40401,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MIRRORARMOR,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ORBEETLE_GIGA] =
 	{
 		.baseHP 		= 60,
@@ -40401,7 +40434,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TELEPATHY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DREDNAW_GIGA] =
 {
 		.baseHP 		= 90,
@@ -40434,7 +40467,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SWIFTSWIM,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_COALOSSAL_GIGA] =
 	{
 		.baseHP 		= 110,
@@ -40467,7 +40500,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLASHFIRE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_FLAPPLE_GIGA] =
 	{
 		.baseHP 		= 70,
@@ -40500,7 +40533,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HUSTLE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_APPLETUN_GIGA] =
 	{
 		.baseHP 		= 110,
@@ -40533,7 +40566,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_THICKFAT,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_SANDACONDA_GIGA] =
 	{
 		.baseHP 		= 72,
@@ -40566,7 +40599,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_SANDVEIL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_TOXTRICITY_GIGA] =
 	{
 		.baseHP 		= 75,
@@ -40599,7 +40632,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-					      
+
 	[SPECIES_TOXTRICITY_LOW_KEY_GIGA] =
 	{
 		.baseHP 		= 75,
@@ -40632,7 +40665,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_TECHNICIAN,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_CENTISKORCH_GIGA] =
 	{
 		.baseHP 		= 100,
@@ -40665,7 +40698,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_FLAMEBODY,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_HATTERENE_GIGA] =
 	{
 		.baseHP 		= 57,
@@ -40698,7 +40731,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_MAGICBOUNCE,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_GRIMMSNARL_GIGA] =
 	{
 		.baseHP 		= 95,
@@ -40731,7 +40764,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_PICKPOCKET,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_ALCREMIE_GIGA] =
 	{
 		.baseHP 		= 65,
@@ -40764,8 +40797,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_AROMAVEIL,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_COPPERAJAH_GIGA] = 
+
+	[SPECIES_COPPERAJAH_GIGA] =
 	{
 		.baseHP 		= 122,
 		.baseAttack 	= 130,
@@ -40797,7 +40830,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_HEAVYMETAL,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_DURALUDON_GIGA] =
 	{
 		.baseHP 		= 70,
@@ -40830,7 +40863,7 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_STALWART,
 		.noFlip = TRUE,
 	},
-	
+
 	[SPECIES_URSHIFU_SINGLE_GIGA] =
 	{
 		.baseHP 		= 100,
@@ -40863,8 +40896,8 @@ const struct BaseStats gBaseStats[] =
 		.hiddenAbility = ABILITY_NONE,
 		.noFlip = TRUE,
 	},
-	
-	[SPECIES_URSHIFU_RAPID_GIGA] = 
+
+	[SPECIES_URSHIFU_RAPID_GIGA] =
 	{
 		.baseHP 		= 100,
 		.baseAttack 	= 130,

@@ -16,6 +16,18 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
+	[NATIONAL_DEX_BULLFROCK] =
+	{
+		.categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
+		.height = 7,
+		.weight = 69,
+		.description = (const u8*) 0x8444cb2,
+		.unusedDescription = (const u8*) 0x8444d11,
+		.pokemonScale = 356,
+		.pokemonOffset = 16,
+		.trainerScale = 256,
+		.trainerOffset = 65534,
+	},
 	[NATIONAL_DEX_BULBASAUR] =
 	{
 		.categoryName = {_S, _e, _e, _d, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
@@ -10732,7 +10744,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	
+
 	[NATIONAL_DEX_REGIELEKI] =
 	{
 		.categoryName = {_E, _l, _e, _c, _t, _r, _o, _n, _END, _SPACE, _SPACE, _SPACE},
@@ -10757,7 +10769,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	
+
 	[NATIONAL_DEX_GLASTRIER] =
 	{
 		.categoryName = {_W, _i, _l, _d, _SPACE, _H, _o, _r, _s, _e, _END, _SPACE},
@@ -10770,7 +10782,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	
+
 	[NATIONAL_DEX_SPECTRIER] =
 	{
 		.categoryName = {_S, _w, _i, _f, _t, _SPACE, _H, _o, _r, _s, _e, _END},
@@ -10783,7 +10795,7 @@ const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] =
 		.trainerScale = 0,
 		.trainerOffset = 0,
 	},
-	
+
 	[NATIONAL_DEX_CALYREX] =
 	{
 		.categoryName = {_K, _i, _n, _g, _END, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE, _SPACE},
@@ -10874,5 +10886,5 @@ const struct AlternateDexEntries gAlternateDexEntries[] =
 	ALTERNATE_ENTRY(ZARUDE_DADA),
 	ALTERNATE_ENTRY(CALYREX_ICE_RIDER),
 	ALTERNATE_ENTRY(CALYREX_SHADOW_RIDER),
-	{SPECIES_TABLES_TERMIN, 0} 
+	{SPECIES_TABLES_TERMIN, 0}
 };

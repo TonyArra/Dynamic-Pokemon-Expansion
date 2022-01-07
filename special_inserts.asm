@@ -3,7 +3,7 @@
 .thumb
 
 .equ EVOS_PER_MON, 16
-.equ FINAL_DEX_ENTRY, 898
+.equ FINAL_DEX_ENTRY, 899
 
 @;.equ SEEN_DEX_FLAGS, 0x202583C
 @;.equ CAUGHT_DEX_FLAGS, (SEEN_DEX_FLAGS + (FINAL_DEX_ENTRY / 8) + 1)
@@ -33,7 +33,7 @@ add r3, #EVOS_PER_MON * 8
 	add r0, #(FINAL_DEX_ENTRY / 8) + 1
 	mov r1, #0x0
 	mov r2, #(FINAL_DEX_ENTRY / 8) + 1
-	
+
 @;.org 0x549D0, 0xFF
 @;.word SEEN_DEX_FLAGS
 

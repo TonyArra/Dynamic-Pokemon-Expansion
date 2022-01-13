@@ -9,7 +9,10 @@
 
 //  Punctutation
 #define _EXCLAMATION 0xAB
+#define _QUESTION 0xAC
 #define _APOSTROPHE 0xB4
+#define _PERIOD 0xAD
+#define _HYPHEN 0xAE
 
 // Uppercase
 #define _A 0xBB
@@ -66,4 +69,3 @@
 #define _x 0xEC
 #define _y 0xED
 #define _z 0xEE
-

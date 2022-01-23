@@ -6,7 +6,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 {
 	[SPECIES_BULLFROCK] =
 	{
-		.type = 0x20,
+		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
@@ -4984,10 +4984,10 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-
+	
 //New Data Starts Here
-	[SPECIES_TURTWIG] =
-	{
+	[SPECIES_TURTWIG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -4998,8 +4998,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GROTLE] =
-	{
+	[SPECIES_GROTLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5010,8 +5010,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TORTERRA] =
-	{
+	[SPECIES_TORTERRA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5022,8 +5022,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHIMCHAR] =
-	{
+	[SPECIES_CHIMCHAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5034,8 +5034,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MONFERNO] =
-	{
+	[SPECIES_MONFERNO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5046,8 +5046,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_INFERNAPE] =
-	{
+	[SPECIES_INFERNAPE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5058,8 +5058,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PIPLUP] =
-	{
+	[SPECIES_PIPLUP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5070,8 +5070,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PRINPLUP] =
-	{
+	[SPECIES_PRINPLUP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5082,8 +5082,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EMPOLEON] =
-	{
+	[SPECIES_EMPOLEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5094,8 +5094,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STARLY] =
-	{
+	[SPECIES_STARLY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5106,8 +5106,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STARAVIA] =
-	{
+	[SPECIES_STARAVIA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5118,8 +5118,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STARAPTOR] =
-	{
+	[SPECIES_STARAPTOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5130,8 +5130,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BIDOOF] =
-	{
+	[SPECIES_BIDOOF] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5142,8 +5142,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BIBAREL] =
-	{
+	[SPECIES_BIBAREL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5154,8 +5154,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KRICKETOT] =
-	{
+	[SPECIES_KRICKETOT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5166,8 +5166,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KRICKETUNE] =
-	{
+	[SPECIES_KRICKETUNE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5178,8 +5178,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHINX] =
-	{
+	[SPECIES_SHINX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5190,8 +5190,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUXIO] =
-	{
+	[SPECIES_LUXIO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5202,8 +5202,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUXRAY] =
-	{
+	[SPECIES_LUXRAY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5214,8 +5214,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUDEW] =
-	{
+	[SPECIES_BUDEW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5226,8 +5226,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROSERADE] =
-	{
+	[SPECIES_ROSERADE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5238,8 +5238,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRANIDOS] =
-	{
+	[SPECIES_CRANIDOS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5250,8 +5250,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RAMPARDOS] =
-	{
+	[SPECIES_RAMPARDOS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5262,8 +5262,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHIELDON] =
-	{
+	[SPECIES_SHIELDON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5274,8 +5274,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BASTIODON] =
-	{
+	[SPECIES_BASTIODON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5286,8 +5286,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BURMY] =
-	{
+	[SPECIES_BURMY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5298,8 +5298,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WORMADAM] =
-	{
+	[SPECIES_WORMADAM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5310,8 +5310,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MOTHIM] =
-	{
+	[SPECIES_MOTHIM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5322,8 +5322,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COMBEE] =
-	{
+	[SPECIES_COMBEE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5334,8 +5334,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VESPIQUEN] =
-	{
+	[SPECIES_VESPIQUEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5346,8 +5346,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PACHIRISU] =
-	{
+	[SPECIES_PACHIRISU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5358,8 +5358,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUIZEL] =
-	{
+	[SPECIES_BUIZEL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5370,8 +5370,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOATZEL] =
-	{
+	[SPECIES_FLOATZEL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5382,8 +5382,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHERUBI] =
-	{
+	[SPECIES_CHERUBI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5394,8 +5394,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHERRIM] =
-	{
+	[SPECIES_CHERRIM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5406,8 +5406,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHELLOS] =
-	{
+	[SPECIES_SHELLOS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5418,8 +5418,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GASTRODON] =
-	{
+	[SPECIES_GASTRODON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5430,8 +5430,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AMBIPOM] =
-	{
+	[SPECIES_AMBIPOM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5442,8 +5442,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRIFLOON] =
-	{
+	[SPECIES_DRIFLOON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5454,8 +5454,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRIFBLIM] =
-	{
+	[SPECIES_DRIFBLIM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5466,8 +5466,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUNEARY] =
-	{
+	[SPECIES_BUNEARY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5478,8 +5478,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LOPUNNY] =
-	{
+	[SPECIES_LOPUNNY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5490,8 +5490,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MISMAGIUS] =
-	{
+	[SPECIES_MISMAGIUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5502,8 +5502,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HONCHKROW] =
-	{
+	[SPECIES_HONCHKROW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5514,8 +5514,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GLAMEOW] =
-	{
+	[SPECIES_GLAMEOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5526,8 +5526,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PURUGLY] =
-	{
+	[SPECIES_PURUGLY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5538,8 +5538,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHINGLING] =
-	{
+	[SPECIES_CHINGLING] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5550,8 +5550,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STUNKY] =
-	{
+	[SPECIES_STUNKY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5562,8 +5562,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SKUNTANK] =
-	{
+	[SPECIES_SKUNTANK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5574,8 +5574,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BRONZOR] =
-	{
+	[SPECIES_BRONZOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5586,8 +5586,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BRONZONG] =
-	{
+	[SPECIES_BRONZONG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5598,8 +5598,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BONSLY] =
-	{
+	[SPECIES_BONSLY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5610,8 +5610,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MIME_JR] =
-	{
+	[SPECIES_MIME_JR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5622,8 +5622,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HAPPINY] =
-	{
+	[SPECIES_HAPPINY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5634,8 +5634,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHATOT] =
-	{
+	[SPECIES_CHATOT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5646,8 +5646,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SPIRITOMB] =
-	{
+	[SPECIES_SPIRITOMB] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5658,8 +5658,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GIBLE] =
-	{
+	[SPECIES_GIBLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5670,8 +5670,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GABITE] =
-	{
+	[SPECIES_GABITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5682,8 +5682,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GARCHOMP] =
-	{
+	[SPECIES_GARCHOMP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5694,8 +5694,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUNCHLAX] =
-	{
+	[SPECIES_MUNCHLAX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5706,8 +5706,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RIOLU] =
-	{
+	[SPECIES_RIOLU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5718,8 +5718,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUCARIO] =
-	{
+	[SPECIES_LUCARIO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5730,8 +5730,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HIPPOPOTAS] =
-	{
+	[SPECIES_HIPPOPOTAS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5742,8 +5742,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HIPPOWDON] =
-	{
+	[SPECIES_HIPPOWDON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5754,8 +5754,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SKORUPI] =
-	{
+	[SPECIES_SKORUPI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5766,8 +5766,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRAPION] =
-	{
+	[SPECIES_DRAPION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5778,8 +5778,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CROAGUNK] =
-	{
+	[SPECIES_CROAGUNK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5790,8 +5790,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TOXICROAK] =
-	{
+	[SPECIES_TOXICROAK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5802,8 +5802,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CARNIVINE] =
-	{
+	[SPECIES_CARNIVINE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5814,8 +5814,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FINNEON] =
-	{
+	[SPECIES_FINNEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5826,8 +5826,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUMINEON] =
-	{
+	[SPECIES_LUMINEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5838,8 +5838,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MANTYKE] =
-	{
+	[SPECIES_MANTYKE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5850,8 +5850,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SNOVER] =
-	{
+	[SPECIES_SNOVER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5862,8 +5862,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ABOMASNOW] =
-	{
+	[SPECIES_ABOMASNOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5874,8 +5874,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WEAVILE] =
-	{
+	[SPECIES_WEAVILE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5886,8 +5886,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAGNEZONE] =
-	{
+	[SPECIES_MAGNEZONE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5898,8 +5898,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LICKILICKY] =
-	{
+	[SPECIES_LICKILICKY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5910,8 +5910,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RHYPERIOR] =
-	{
+	[SPECIES_RHYPERIOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5922,8 +5922,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TANGROWTH] =
-	{
+	[SPECIES_TANGROWTH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5934,8 +5934,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ELECTIVIRE] =
-	{
+	[SPECIES_ELECTIVIRE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5946,8 +5946,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAGMORTAR] =
-	{
+	[SPECIES_MAGMORTAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5958,8 +5958,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TOGEKISS] =
-	{
+	[SPECIES_TOGEKISS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5970,8 +5970,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_YANMEGA] =
-	{
+	[SPECIES_YANMEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5982,8 +5982,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LEAFEON] =
-	{
+	[SPECIES_LEAFEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -5994,8 +5994,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GLACEON] =
-	{
+	[SPECIES_GLACEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6006,8 +6006,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GLISCOR] =
-	{
+	[SPECIES_GLISCOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6018,8 +6018,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAMOSWINE] =
-	{
+	[SPECIES_MAMOSWINE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6030,8 +6030,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PORYGON_Z] =
-	{
+	[SPECIES_PORYGON_Z] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6042,8 +6042,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GALLADE] =
-	{
+	[SPECIES_GALLADE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6054,8 +6054,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PROBOPASS] =
-	{
+	[SPECIES_PROBOPASS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6066,8 +6066,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DUSKNOIR] =
-	{
+	[SPECIES_DUSKNOIR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6078,8 +6078,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FROSLASS] =
-	{
+	[SPECIES_FROSLASS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6090,8 +6090,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM] =
-	{
+	[SPECIES_ROTOM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6102,8 +6102,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_UXIE] =
-	{
+	[SPECIES_UXIE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6114,8 +6114,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MESPRIT] =
-	{
+	[SPECIES_MESPRIT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6126,8 +6126,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AZELF] =
-	{
+	[SPECIES_AZELF] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6138,8 +6138,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIALGA] =
-	{
+	[SPECIES_DIALGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6150,8 +6150,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PALKIA] =
-	{
+	[SPECIES_PALKIA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6162,8 +6162,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HEATRAN] =
-	{
+	[SPECIES_HEATRAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6174,8 +6174,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_REGIGIGAS] =
-	{
+	[SPECIES_REGIGIGAS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6186,8 +6186,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GIRATINA] =
-	{
+	[SPECIES_GIRATINA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6198,8 +6198,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRESSELIA] =
-	{
+	[SPECIES_CRESSELIA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6210,8 +6210,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PHIONE] =
-	{
+	[SPECIES_PHIONE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6222,8 +6222,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MANAPHY] =
-	{
+	[SPECIES_MANAPHY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6234,8 +6234,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DARKRAI] =
-	{
+	[SPECIES_DARKRAI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6246,8 +6246,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHAYMIN] =
-	{
+	[SPECIES_SHAYMIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6258,8 +6258,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS] =
-	{
+	[SPECIES_ARCEUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6270,8 +6270,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VICTINI] =
-	{
+	[SPECIES_VICTINI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6282,8 +6282,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SNIVY] =
-	{
+	[SPECIES_SNIVY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6294,8 +6294,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SERVINE] =
-	{
+	[SPECIES_SERVINE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6306,8 +6306,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SERPERIOR] =
-	{
+	[SPECIES_SERPERIOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6318,8 +6318,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TEPIG] =
-	{
+	[SPECIES_TEPIG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6330,8 +6330,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PIGNITE] =
-	{
+	[SPECIES_PIGNITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6342,8 +6342,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EMBOAR] =
-	{
+	[SPECIES_EMBOAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6354,8 +6354,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_OSHAWOTT] =
-	{
+	[SPECIES_OSHAWOTT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6366,8 +6366,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEWOTT] =
-	{
+	[SPECIES_DEWOTT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6378,8 +6378,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAMUROTT] =
-	{
+	[SPECIES_SAMUROTT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6390,8 +6390,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PATRAT] =
-	{
+	[SPECIES_PATRAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6402,8 +6402,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WATCHOG] =
-	{
+	[SPECIES_WATCHOG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6414,8 +6414,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LILLIPUP] =
-	{
+	[SPECIES_LILLIPUP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6426,8 +6426,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HERDIER] =
-	{
+	[SPECIES_HERDIER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6438,8 +6438,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STOUTLAND] =
-	{
+	[SPECIES_STOUTLAND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6450,8 +6450,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PURRLOIN] =
-	{
+	[SPECIES_PURRLOIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6462,8 +6462,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LIEPARD] =
-	{
+	[SPECIES_LIEPARD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6474,8 +6474,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PANSAGE] =
-	{
+	[SPECIES_PANSAGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6486,8 +6486,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SIMISAGE] =
-	{
+	[SPECIES_SIMISAGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6498,8 +6498,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PANSEAR] =
-	{
+	[SPECIES_PANSEAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6510,8 +6510,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SIMISEAR] =
-	{
+	[SPECIES_SIMISEAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6522,8 +6522,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PANPOUR] =
-	{
+	[SPECIES_PANPOUR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6534,8 +6534,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SIMIPOUR] =
-	{
+	[SPECIES_SIMIPOUR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6546,8 +6546,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUNNA] =
-	{
+	[SPECIES_MUNNA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6558,8 +6558,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUSHARNA] =
-	{
+	[SPECIES_MUSHARNA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6570,8 +6570,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PIDOVE] =
-	{
+	[SPECIES_PIDOVE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6582,8 +6582,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TRANQUILL] =
-	{
+	[SPECIES_TRANQUILL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6594,8 +6594,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_UNFEZANT] =
-	{
+	[SPECIES_UNFEZANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6606,8 +6606,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BLITZLE] =
-	{
+	[SPECIES_BLITZLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6618,8 +6618,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZEBSTRIKA] =
-	{
+	[SPECIES_ZEBSTRIKA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6630,8 +6630,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROGGENROLA] =
-	{
+	[SPECIES_ROGGENROLA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6642,8 +6642,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BOLDORE] =
-	{
+	[SPECIES_BOLDORE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6654,8 +6654,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GIGALITH] =
-	{
+	[SPECIES_GIGALITH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6666,8 +6666,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WOOBAT] =
-	{
+	[SPECIES_WOOBAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6678,8 +6678,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SWOOBAT] =
-	{
+	[SPECIES_SWOOBAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6690,8 +6690,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRILBUR] =
-	{
+	[SPECIES_DRILBUR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6702,8 +6702,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EXCADRILL] =
-	{
+	[SPECIES_EXCADRILL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6714,8 +6714,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AUDINO] =
-	{
+	[SPECIES_AUDINO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6726,8 +6726,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TIMBURR] =
-	{
+	[SPECIES_TIMBURR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6738,8 +6738,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GURDURR] =
-	{
+	[SPECIES_GURDURR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6750,8 +6750,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CONKELDURR] =
-	{
+	[SPECIES_CONKELDURR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6762,8 +6762,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYMPOLE] =
-	{
+	[SPECIES_TYMPOLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6774,8 +6774,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PALPITOAD] =
-	{
+	[SPECIES_PALPITOAD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6786,8 +6786,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SEISMITOAD] =
-	{
+	[SPECIES_SEISMITOAD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6798,8 +6798,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_THROH] =
-	{
+	[SPECIES_THROH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6810,8 +6810,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAWK] =
-	{
+	[SPECIES_SAWK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6822,8 +6822,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SEWADDLE] =
-	{
+	[SPECIES_SEWADDLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6834,8 +6834,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SWADLOON] =
-	{
+	[SPECIES_SWADLOON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6846,8 +6846,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LEAVANNY] =
-	{
+	[SPECIES_LEAVANNY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6858,8 +6858,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VENIPEDE] =
-	{
+	[SPECIES_VENIPEDE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6870,8 +6870,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WHIRLIPEDE] =
-	{
+	[SPECIES_WHIRLIPEDE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6882,8 +6882,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCOLIPEDE] =
-	{
+	[SPECIES_SCOLIPEDE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6894,8 +6894,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COTTONEE] =
-	{
+	[SPECIES_COTTONEE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6906,8 +6906,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WHIMSICOTT] =
-	{
+	[SPECIES_WHIMSICOTT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6918,8 +6918,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PETILIL] =
-	{
+	[SPECIES_PETILIL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6930,8 +6930,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LILLIGANT] =
-	{
+	[SPECIES_LILLIGANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6942,8 +6942,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BASCULIN_RED] =
-	{
+	[SPECIES_BASCULIN_RED] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6954,8 +6954,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SANDILE] =
-	{
+	[SPECIES_SANDILE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6966,8 +6966,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KROKOROK] =
-	{
+	[SPECIES_KROKOROK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6978,8 +6978,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KROOKODILE] =
-	{
+	[SPECIES_KROOKODILE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -6990,8 +6990,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DARUMAKA] =
-	{
+	[SPECIES_DARUMAKA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7002,8 +7002,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DARMANITAN] =
-	{
+	[SPECIES_DARMANITAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7014,8 +7014,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MARACTUS] =
-	{
+	[SPECIES_MARACTUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7026,8 +7026,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DWEBBLE] =
-	{
+	[SPECIES_DWEBBLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7038,8 +7038,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRUSTLE] =
-	{
+	[SPECIES_CRUSTLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7050,8 +7050,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCRAGGY] =
-	{
+	[SPECIES_SCRAGGY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7062,8 +7062,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCRAFTY] =
-	{
+	[SPECIES_SCRAFTY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7074,8 +7074,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SIGILYPH] =
-	{
+	[SPECIES_SIGILYPH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7086,8 +7086,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_YAMASK] =
-	{
+	[SPECIES_YAMASK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7098,8 +7098,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COFAGRIGUS] =
-	{
+	[SPECIES_COFAGRIGUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7110,8 +7110,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TIRTOUGA] =
-	{
+	[SPECIES_TIRTOUGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7122,8 +7122,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CARRACOSTA] =
-	{
+	[SPECIES_CARRACOSTA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7134,8 +7134,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCHEN] =
-	{
+	[SPECIES_ARCHEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7146,8 +7146,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCHEOPS] =
-	{
+	[SPECIES_ARCHEOPS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7158,8 +7158,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TRUBBISH] =
-	{
+	[SPECIES_TRUBBISH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7170,8 +7170,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GARBODOR] =
-	{
+	[SPECIES_GARBODOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7182,8 +7182,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZORUA] =
-	{
+	[SPECIES_ZORUA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7194,8 +7194,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZOROARK] =
-	{
+	[SPECIES_ZOROARK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7206,8 +7206,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINCCINO] =
-	{
+	[SPECIES_MINCCINO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7218,8 +7218,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CINCCINO] =
-	{
+	[SPECIES_CINCCINO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7230,8 +7230,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOTHITA] =
-	{
+	[SPECIES_GOTHITA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7242,8 +7242,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOTHORITA] =
-	{
+	[SPECIES_GOTHORITA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7254,8 +7254,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOTHITELLE] =
-	{
+	[SPECIES_GOTHITELLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7266,8 +7266,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SOLOSIS] =
-	{
+	[SPECIES_SOLOSIS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7278,8 +7278,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DUOSION] =
-	{
+	[SPECIES_DUOSION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7290,8 +7290,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_REUNICLUS] =
-	{
+	[SPECIES_REUNICLUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7302,8 +7302,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DUCKLETT] =
-	{
+	[SPECIES_DUCKLETT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7314,8 +7314,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SWANNA] =
-	{
+	[SPECIES_SWANNA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7326,8 +7326,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VANILLITE] =
-	{
+	[SPECIES_VANILLITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7338,8 +7338,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VANILLISH] =
-	{
+	[SPECIES_VANILLISH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7350,8 +7350,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VANILLUXE] =
-	{
+	[SPECIES_VANILLUXE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7362,8 +7362,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEERLING] =
-	{
+	[SPECIES_DEERLING] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7374,8 +7374,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAWSBUCK] =
-	{
+	[SPECIES_SAWSBUCK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7386,8 +7386,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EMOLGA] =
-	{
+	[SPECIES_EMOLGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7398,8 +7398,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KARRABLAST] =
-	{
+	[SPECIES_KARRABLAST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7410,8 +7410,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ESCAVALIER] =
-	{
+	[SPECIES_ESCAVALIER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7422,8 +7422,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FOONGUS] =
-	{
+	[SPECIES_FOONGUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7434,8 +7434,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AMOONGUSS] =
-	{
+	[SPECIES_AMOONGUSS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7446,8 +7446,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FRILLISH] =
-	{
+	[SPECIES_FRILLISH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7458,8 +7458,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_JELLICENT] =
-	{
+	[SPECIES_JELLICENT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7470,8 +7470,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ALOMOMOLA] =
-	{
+	[SPECIES_ALOMOMOLA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7482,8 +7482,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_JOLTIK] =
-	{
+	[SPECIES_JOLTIK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7494,8 +7494,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GALVANTULA] =
-	{
+	[SPECIES_GALVANTULA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7506,8 +7506,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FERROSEED] =
-	{
+	[SPECIES_FERROSEED] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7518,8 +7518,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FERROTHORN] =
-	{
+	[SPECIES_FERROTHORN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7530,8 +7530,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KLINK] =
-	{
+	[SPECIES_KLINK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7542,8 +7542,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KLANG] =
-	{
+	[SPECIES_KLANG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7554,8 +7554,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KLINKLANG] =
-	{
+	[SPECIES_KLINKLANG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7566,8 +7566,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYNAMO] =
-	{
+	[SPECIES_TYNAMO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7578,8 +7578,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EELEKTRIK] =
-	{
+	[SPECIES_EELEKTRIK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7590,8 +7590,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EELEKTROSS] =
-	{
+	[SPECIES_EELEKTROSS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7602,8 +7602,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ELGYEM] =
-	{
+	[SPECIES_ELGYEM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7614,8 +7614,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BEHEEYEM] =
-	{
+	[SPECIES_BEHEEYEM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7626,8 +7626,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LITWICK] =
-	{
+	[SPECIES_LITWICK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7638,8 +7638,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LAMPENT] =
-	{
+	[SPECIES_LAMPENT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7650,8 +7650,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHANDELURE] =
-	{
+	[SPECIES_CHANDELURE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7662,8 +7662,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AXEW] =
-	{
+	[SPECIES_AXEW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7674,8 +7674,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FRAXURE] =
-	{
+	[SPECIES_FRAXURE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7686,8 +7686,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HAXORUS] =
-	{
+	[SPECIES_HAXORUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7698,8 +7698,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CUBCHOO] =
-	{
+	[SPECIES_CUBCHOO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7710,8 +7710,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BEARTIC] =
-	{
+	[SPECIES_BEARTIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7722,8 +7722,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRYOGONAL] =
-	{
+	[SPECIES_CRYOGONAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7734,8 +7734,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHELMET] =
-	{
+	[SPECIES_SHELMET] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7746,8 +7746,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ACCELGOR] =
-	{
+	[SPECIES_ACCELGOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7758,8 +7758,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STUNFISK] =
-	{
+	[SPECIES_STUNFISK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7770,8 +7770,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MIENFOO] =
-	{
+	[SPECIES_MIENFOO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7782,8 +7782,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MIENSHAO] =
-	{
+	[SPECIES_MIENSHAO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7794,8 +7794,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRUDDIGON] =
-	{
+	[SPECIES_DRUDDIGON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7806,8 +7806,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOLETT] =
-	{
+	[SPECIES_GOLETT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7818,8 +7818,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOLURK] =
-	{
+	[SPECIES_GOLURK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7830,8 +7830,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PAWNIARD] =
-	{
+	[SPECIES_PAWNIARD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7842,8 +7842,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BISHARP] =
-	{
+	[SPECIES_BISHARP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7854,8 +7854,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BOUFFALANT] =
-	{
+	[SPECIES_BOUFFALANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7866,8 +7866,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RUFFLET] =
-	{
+	[SPECIES_RUFFLET] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7878,8 +7878,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BRAVIARY] =
-	{
+	[SPECIES_BRAVIARY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7890,8 +7890,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VULLABY] =
-	{
+	[SPECIES_VULLABY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7902,8 +7902,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MANDIBUZZ] =
-	{
+	[SPECIES_MANDIBUZZ] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7914,8 +7914,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HEATMOR] =
-	{
+	[SPECIES_HEATMOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7926,8 +7926,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DURANT] =
-	{
+	[SPECIES_DURANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7938,8 +7938,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEINO] =
-	{
+	[SPECIES_DEINO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7950,8 +7950,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZWEILOUS] =
-	{
+	[SPECIES_ZWEILOUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7962,8 +7962,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HYDREIGON] =
-	{
+	[SPECIES_HYDREIGON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7974,8 +7974,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LARVESTA] =
-	{
+	[SPECIES_LARVESTA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7986,8 +7986,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VOLCARONA] =
-	{
+	[SPECIES_VOLCARONA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -7998,8 +7998,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COBALION] =
-	{
+	[SPECIES_COBALION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8010,8 +8010,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TERRAKION] =
-	{
+	[SPECIES_TERRAKION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8022,8 +8022,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIRIZION] =
-	{
+	[SPECIES_VIRIZION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8034,8 +8034,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TORNADUS] =
-	{
+	[SPECIES_TORNADUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8046,8 +8046,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_THUNDURUS] =
-	{
+	[SPECIES_THUNDURUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8058,8 +8058,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RESHIRAM] =
-	{
+	[SPECIES_RESHIRAM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8070,8 +8070,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZEKROM] =
-	{
+	[SPECIES_ZEKROM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8082,8 +8082,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LANDORUS] =
-	{
+	[SPECIES_LANDORUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8094,8 +8094,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KYUREM] =
-	{
+	[SPECIES_KYUREM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8106,8 +8106,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KELDEO] =
-	{
+	[SPECIES_KELDEO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8118,8 +8118,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MELOETTA] =
-	{
+	[SPECIES_MELOETTA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8130,8 +8130,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENESECT] =
-	{
+	[SPECIES_GENESECT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8142,8 +8142,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_UNFEZANT_F] =
-	{
+	[SPECIES_UNFEZANT_F] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8154,8 +8154,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FRILLISH_F] =
-	{
+	[SPECIES_FRILLISH_F] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8166,8 +8166,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_JELLICENT_F] =
-	{
+	[SPECIES_JELLICENT_F] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8178,8 +8178,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHADOW_WARRIOR] =
-	{
+	[SPECIES_SHADOW_WARRIOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8190,8 +8190,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BURMY_SANDY] =
-	{
+	[SPECIES_BURMY_SANDY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8202,8 +8202,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BURMY_TRASH] =
-	{
+	[SPECIES_BURMY_TRASH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8214,8 +8214,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WORMADAM_SANDY] =
-	{
+	[SPECIES_WORMADAM_SANDY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8226,8 +8226,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WORMADAM_TRASH] =
-	{
+	[SPECIES_WORMADAM_TRASH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8238,8 +8238,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHELLOS_EAST] =
-	{
+	[SPECIES_SHELLOS_EAST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8250,8 +8250,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GASTRODON_EAST] =
-	{
+	[SPECIES_GASTRODON_EAST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8262,8 +8262,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM_HEAT] =
-	{
+	[SPECIES_ROTOM_HEAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8274,8 +8274,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM_WASH] =
-	{
+	[SPECIES_ROTOM_WASH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8286,8 +8286,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM_FROST] =
-	{
+	[SPECIES_ROTOM_FROST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8298,8 +8298,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM_FAN] =
-	{
+	[SPECIES_ROTOM_FAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8310,8 +8310,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROTOM_MOW] =
-	{
+	[SPECIES_ROTOM_MOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8322,8 +8322,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GIRATINA_ORIGIN] =
-	{
+	[SPECIES_GIRATINA_ORIGIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8334,8 +8334,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHAYMIN_SKY] =
-	{
+	[SPECIES_SHAYMIN_SKY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8346,8 +8346,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_FIGHT] =
-	{
+	[SPECIES_ARCEUS_FIGHT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8358,8 +8358,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_FLYING] =
-	{
+	[SPECIES_ARCEUS_FLYING] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8370,8 +8370,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_POISON] =
-	{
+	[SPECIES_ARCEUS_POISON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8382,8 +8382,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_GROUND] =
-	{
+	[SPECIES_ARCEUS_GROUND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8394,8 +8394,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_ROCK] =
-	{
+	[SPECIES_ARCEUS_ROCK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8406,8 +8406,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_BUG] =
-	{
+	[SPECIES_ARCEUS_BUG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8418,8 +8418,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_GHOST] =
-	{
+	[SPECIES_ARCEUS_GHOST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8430,8 +8430,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_STEEL] =
-	{
+	[SPECIES_ARCEUS_STEEL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8442,8 +8442,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_FIRE] =
-	{
+	[SPECIES_ARCEUS_FIRE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8454,8 +8454,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_WATER] =
-	{
+	[SPECIES_ARCEUS_WATER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8466,8 +8466,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_GRASS] =
-	{
+	[SPECIES_ARCEUS_GRASS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8478,8 +8478,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_ELECTRIC] =
-	{
+	[SPECIES_ARCEUS_ELECTRIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8490,8 +8490,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_PSYCHIC] =
-	{
+	[SPECIES_ARCEUS_PSYCHIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8502,8 +8502,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_ICE] =
-	{
+	[SPECIES_ARCEUS_ICE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8514,8 +8514,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_DRAGON] =
-	{
+	[SPECIES_ARCEUS_DRAGON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8526,8 +8526,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_DARK] =
-	{
+	[SPECIES_ARCEUS_DARK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8538,8 +8538,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BASCULIN_BLUE] =
-	{
+	[SPECIES_BASCULIN_BLUE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8550,8 +8550,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DARMANITANZEN] =
-	{
+	[SPECIES_DARMANITANZEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8562,8 +8562,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEERLING_SUMMER] =
-	{
+	[SPECIES_DEERLING_SUMMER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8574,8 +8574,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEERLING_AUTUMN] =
-	{
+	[SPECIES_DEERLING_AUTUMN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8586,8 +8586,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEERLING_WINTER] =
-	{
+	[SPECIES_DEERLING_WINTER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8598,8 +8598,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAWSBUCK_SUMMER] =
-	{
+	[SPECIES_SAWSBUCK_SUMMER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8610,8 +8610,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAWSBUCK_AUTUMN] =
-	{
+	[SPECIES_SAWSBUCK_AUTUMN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8622,8 +8622,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SAWSBUCK_WINTER] =
-	{
+	[SPECIES_SAWSBUCK_WINTER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8634,8 +8634,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HIPPOPOTAS_F] =
-	{
+	[SPECIES_HIPPOPOTAS_F] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8646,8 +8646,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HIPPOWDON_F] =
-	{
+	[SPECIES_HIPPOWDON_F] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8658,8 +8658,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MELOETTA_PIROUETTE] =
-	{
+	[SPECIES_MELOETTA_PIROUETTE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8670,8 +8670,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENESECT_SHOCK] =
-	{
+	[SPECIES_GENESECT_SHOCK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8682,8 +8682,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENESECT_BURN] =
-	{
+	[SPECIES_GENESECT_BURN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8694,8 +8694,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENESECT_CHILL] =
-	{
+	[SPECIES_GENESECT_CHILL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8706,8 +8706,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENESECT_DOUSE] =
-	{
+	[SPECIES_GENESECT_DOUSE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8718,8 +8718,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHERRIM_SUN] =
-	{
+	[SPECIES_CHERRIM_SUN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8730,8 +8730,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KYUREM_BLACK] =
-	{
+	[SPECIES_KYUREM_BLACK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8742,20 +8742,20 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KYUREM_WHITE] =
-	{
+	[SPECIES_KYUREM_WHITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = gCryKyurem,//White,
+		.wav = gCryKyuremWhite,
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TORNADUS_THERIAN] =
-	{
+	[SPECIES_TORNADUS_THERIAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8766,8 +8766,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_THUNDURUS_THERIAN] =
-	{
+	[SPECIES_THUNDURUS_THERIAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8778,8 +8778,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LANDORUS_THERIAN] =
-	{
+	[SPECIES_LANDORUS_THERIAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8790,8 +8790,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KELDEO_RESOLUTE] =
-	{
+	[SPECIES_KELDEO_RESOLUTE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8802,8 +8802,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHESPIN] =
-	{
+	[SPECIES_CHESPIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8814,8 +8814,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_QUILLADIN] =
-	{
+	[SPECIES_QUILLADIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8826,8 +8826,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHESNAUGHT] =
-	{
+	[SPECIES_CHESNAUGHT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8838,8 +8838,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FENNEKIN] =
-	{
+	[SPECIES_FENNEKIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8850,8 +8850,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-[SPECIES_BRAIXEN] =
-	{
+[SPECIES_BRAIXEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8862,8 +8862,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DELPHOX] =
-	{
+	[SPECIES_DELPHOX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8874,8 +8874,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FROAKIE] =
-	{
+	[SPECIES_FROAKIE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8886,8 +8886,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FROGADIER] =
-	{
+	[SPECIES_FROGADIER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8898,8 +8898,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GRENINJA] =
-	{
+	[SPECIES_GRENINJA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8910,8 +8910,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUNNELBY] =
-	{
+	[SPECIES_BUNNELBY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8922,8 +8922,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIGGERSBY] =
-	{
+	[SPECIES_DIGGERSBY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8934,8 +8934,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLETCHLING] =
-	{
+	[SPECIES_FLETCHLING] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8946,8 +8946,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLETCHINDER] =
-	{
+	[SPECIES_FLETCHINDER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8958,8 +8958,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TALONFLAME] =
-	{
+	[SPECIES_TALONFLAME] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8970,8 +8970,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCATTERBUG] =
-	{
+	[SPECIES_SCATTERBUG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8982,8 +8982,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SPEWPA] =
-	{
+	[SPECIES_SPEWPA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -8994,8 +8994,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON] =
-	{
+	[SPECIES_VIVILLON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9006,8 +9006,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LITLEO] =
-	{
+	[SPECIES_LITLEO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9018,8 +9018,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PYROAR] =
-	{
+	[SPECIES_PYROAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9030,8 +9030,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLABEBE] =
-	{
+	[SPECIES_FLABEBE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9042,8 +9042,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE] =
-	{
+	[SPECIES_FLOETTE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9054,8 +9054,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLORGES] =
-	{
+	[SPECIES_FLORGES] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9066,8 +9066,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SKIDDO] =
-	{
+	[SPECIES_SKIDDO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9078,8 +9078,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOGOAT] =
-	{
+	[SPECIES_GOGOAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9090,8 +9090,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PANCHAM] =
-	{
+	[SPECIES_PANCHAM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9102,8 +9102,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PANGORO] =
-	{
+	[SPECIES_PANGORO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9114,8 +9114,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU] =
-	{
+	[SPECIES_FURFROU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9126,8 +9126,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ESPURR] =
-	{
+	[SPECIES_ESPURR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9138,8 +9138,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEOWSTIC] =
-	{
+	[SPECIES_MEOWSTIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9150,8 +9150,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HONEDGE] =
-	{
+	[SPECIES_HONEDGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9162,8 +9162,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DOUBLADE] =
-	{
+	[SPECIES_DOUBLADE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9174,8 +9174,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AEGISLASH] =
-	{
+	[SPECIES_AEGISLASH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9186,8 +9186,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SPRITZEE] =
-	{
+	[SPECIES_SPRITZEE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9198,8 +9198,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AROMATISSE] =
-	{
+	[SPECIES_AROMATISSE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9210,8 +9210,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SWIRLIX] =
-	{
+	[SPECIES_SWIRLIX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9222,8 +9222,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SLURPUFF] =
-	{
+	[SPECIES_SLURPUFF] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9234,8 +9234,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_INKAY] =
-	{
+	[SPECIES_INKAY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9246,8 +9246,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MALAMAR] =
-	{
+	[SPECIES_MALAMAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9258,8 +9258,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BINACLE] =
-	{
+	[SPECIES_BINACLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9270,8 +9270,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BARBARACLE] =
-	{
+	[SPECIES_BARBARACLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9282,8 +9282,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SKRELP] =
-	{
+	[SPECIES_SKRELP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9294,8 +9294,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRAGALGE] =
-	{
+	[SPECIES_DRAGALGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9306,8 +9306,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CLAUNCHER] =
-	{
+	[SPECIES_CLAUNCHER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9318,8 +9318,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CLAWITZER] =
-	{
+	[SPECIES_CLAWITZER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9330,8 +9330,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HELIOPTILE] =
-	{
+	[SPECIES_HELIOPTILE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9342,8 +9342,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HELIOLISK] =
-	{
+	[SPECIES_HELIOLISK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9354,8 +9354,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYRUNT] =
-	{
+	[SPECIES_TYRUNT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9366,8 +9366,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYRANTRUM] =
-	{
+	[SPECIES_TYRANTRUM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9378,8 +9378,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AMAURA] =
-	{
+	[SPECIES_AMAURA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9390,8 +9390,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AURORUS] =
-	{
+	[SPECIES_AURORUS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9402,8 +9402,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SYLVEON] =
-	{
+	[SPECIES_SYLVEON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9414,8 +9414,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HAWLUCHA] =
-	{
+	[SPECIES_HAWLUCHA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9426,8 +9426,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEDENNE] =
-	{
+	[SPECIES_DEDENNE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9438,8 +9438,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CARBINK] =
-	{
+	[SPECIES_CARBINK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9450,8 +9450,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOOMY] =
-	{
+	[SPECIES_GOOMY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9462,8 +9462,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SLIGGOO] =
-	{
+	[SPECIES_SLIGGOO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9474,8 +9474,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOODRA] =
-	{
+	[SPECIES_GOODRA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9486,8 +9486,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KLEFKI] =
-	{
+	[SPECIES_KLEFKI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9498,8 +9498,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PHANTUMP] =
-	{
+	[SPECIES_PHANTUMP] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9510,8 +9510,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TREVENANT] =
-	{
+	[SPECIES_TREVENANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9522,8 +9522,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PUMPKABOO] =
-	{
+	[SPECIES_PUMPKABOO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9534,8 +9534,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOURGEIST] =
-	{
+	[SPECIES_GOURGEIST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9546,8 +9546,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BERGMITE] =
-	{
+	[SPECIES_BERGMITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9558,8 +9558,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AVALUGG] =
-	{
+	[SPECIES_AVALUGG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9570,8 +9570,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NOIBAT] =
-	{
+	[SPECIES_NOIBAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9582,8 +9582,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NOIVERN] =
-	{
+	[SPECIES_NOIVERN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9594,8 +9594,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_XERNEAS] =
-	{
+	[SPECIES_XERNEAS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9606,8 +9606,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_YVELTAL] =
-	{
+	[SPECIES_YVELTAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9618,8 +9618,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZYGARDE] =
-	{
+	[SPECIES_ZYGARDE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9630,8 +9630,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIANCIE] =
-	{
+	[SPECIES_DIANCIE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9642,8 +9642,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HOOPA] =
-	{
+	[SPECIES_HOOPA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9654,8 +9654,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HOOPA_UNBOUND] =
-	{
+	[SPECIES_HOOPA_UNBOUND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9666,8 +9666,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VOLCANION] =
-	{
+	[SPECIES_VOLCANION] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9678,8 +9678,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PYROAR_FEMALE] =
-	{
+	[SPECIES_PYROAR_FEMALE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9690,8 +9690,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEOWSTIC_FEMALE] =
-	{
+	[SPECIES_MEOWSTIC_FEMALE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9702,8 +9702,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AEGISLASH_BLADE] =
-	{
+	[SPECIES_AEGISLASH_BLADE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9714,8 +9714,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARCEUS_FAIRY] =
-	{
+	[SPECIES_ARCEUS_FAIRY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9726,8 +9726,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZYGARDE_CELL] =
-	{
+	[SPECIES_ZYGARDE_CELL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9738,8 +9738,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZYGARDE_CORE] =
-	{
+	[SPECIES_ZYGARDE_CORE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9750,8 +9750,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZYGARDE_10] =
-	{
+	[SPECIES_ZYGARDE_10] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9762,8 +9762,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZYGARDE_COMPLETE] =
-	{
+	[SPECIES_ZYGARDE_COMPLETE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9774,8 +9774,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ASHGRENINJA] =
-	{
+	[SPECIES_ASHGRENINJA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9786,8 +9786,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLABEBE_BLUE] =
-	{
+	[SPECIES_FLABEBE_BLUE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9798,8 +9798,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLABEBE_ORANGE] =
-	{
+	[SPECIES_FLABEBE_ORANGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9810,8 +9810,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLABEBE_YELLOW] =
-	{
+	[SPECIES_FLABEBE_YELLOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9822,8 +9822,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLABEBE_WHITE] =
-	{
+	[SPECIES_FLABEBE_WHITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9834,8 +9834,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE_BLUE] =
-	{
+	[SPECIES_FLOETTE_BLUE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9846,8 +9846,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE_ORANGE] =
-	{
+	[SPECIES_FLOETTE_ORANGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9858,8 +9858,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE_YELLOW] =
-	{
+	[SPECIES_FLOETTE_YELLOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9870,8 +9870,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE_WHITE] =
-	{
+	[SPECIES_FLOETTE_WHITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9882,8 +9882,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLOETTE_ETERNAL] =
-	{
+	[SPECIES_FLOETTE_ETERNAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9894,8 +9894,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLORGES_BLUE] =
-	{
+	[SPECIES_FLORGES_BLUE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9906,8 +9906,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLORGES_ORANGE] =
-	{
+	[SPECIES_FLORGES_ORANGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9918,8 +9918,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLORGES_YELLOW] =
-	{
+	[SPECIES_FLORGES_YELLOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9930,8 +9930,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FLORGES_WHITE] =
-	{
+	[SPECIES_FLORGES_WHITE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9942,8 +9942,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PUMPKABOO_XL] =
-	{
+	[SPECIES_PUMPKABOO_XL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9954,8 +9954,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PUMPKABOO_L] =
-	{
+	[SPECIES_PUMPKABOO_L] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9966,8 +9966,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PUMPKABOO_M] =
-	{
+	[SPECIES_PUMPKABOO_M] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9978,8 +9978,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOURGEIST_XL] =
-	{
+	[SPECIES_GOURGEIST_XL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -9990,8 +9990,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOURGEIST_L] =
-	{
+	[SPECIES_GOURGEIST_L] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10002,8 +10002,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOURGEIST_M] =
-	{
+	[SPECIES_GOURGEIST_M] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10014,8 +10014,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_HEART] =
-	{
+	[SPECIES_FURFROU_HEART] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10026,8 +10026,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_DIAMOND] =
-	{
+	[SPECIES_FURFROU_DIAMOND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10038,8 +10038,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_STAR] =
-	{
+	[SPECIES_FURFROU_STAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10050,8 +10050,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_PHAROAH] =
-	{
+	[SPECIES_FURFROU_PHAROAH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10062,8 +10062,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_KABUKI] =
-	{
+	[SPECIES_FURFROU_KABUKI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10074,8 +10074,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_LA_REINE] =
-	{
+	[SPECIES_FURFROU_LA_REINE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10086,8 +10086,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_MATRON] =
-	{
+	[SPECIES_FURFROU_MATRON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10098,8 +10098,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_DANDY] =
-	{
+	[SPECIES_FURFROU_DANDY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10110,8 +10110,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FURFROU_DEBUTANTE] =
-	{
+	[SPECIES_FURFROU_DEBUTANTE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10122,8 +10122,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_FANCY] =
-	{
+	[SPECIES_VIVILLON_FANCY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10134,8 +10134,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VENUSAUR_MEGA] =
-	{
+	[SPECIES_VENUSAUR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10146,8 +10146,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHARIZARD_MEGA_X] =
-	{
+	[SPECIES_CHARIZARD_MEGA_X] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10158,8 +10158,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHARIZARD_MEGA_Y] =
-	{
+	[SPECIES_CHARIZARD_MEGA_Y] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10170,8 +10170,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BLASTOISE_MEGA] =
-	{
+	[SPECIES_BLASTOISE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10182,8 +10182,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BEEDRILL_MEGA] =
-	{
+	[SPECIES_BEEDRILL_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10194,8 +10194,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PIDGEOT_MEGA] =
-	{
+	[SPECIES_PIDGEOT_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10206,8 +10206,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ALAKAZAM_MEGA] =
-	{
+	[SPECIES_ALAKAZAM_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10218,8 +10218,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SLOWBRO_MEGA] =
-	{
+	[SPECIES_SLOWBRO_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10230,8 +10230,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GENGAR_MEGA] =
-	{
+	[SPECIES_GENGAR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10242,8 +10242,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KANGASKHAN_MEGA] =
-	{
+	[SPECIES_KANGASKHAN_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10254,8 +10254,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PINSIR_MEGA] =
-	{
+	[SPECIES_PINSIR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10266,8 +10266,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GYARADOS_MEGA] =
-	{
+	[SPECIES_GYARADOS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10278,8 +10278,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AERODACTYL_MEGA] =
-	{
+	[SPECIES_AERODACTYL_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10290,8 +10290,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEWTWO_MEGA_X] =
-	{
+	[SPECIES_MEWTWO_MEGA_X] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10302,8 +10302,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEWTWO_MEGA_Y] =
-	{
+	[SPECIES_MEWTWO_MEGA_Y] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10314,8 +10314,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AMPHAROS_MEGA] =
-	{
+	[SPECIES_AMPHAROS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10326,8 +10326,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STEELIX_MEGA] =
-	{
+	[SPECIES_STEELIX_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10338,8 +10338,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCIZOR_MEGA] =
-	{
+	[SPECIES_SCIZOR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10350,8 +10350,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HERACROSS_MEGA] =
-	{
+	[SPECIES_HERACROSS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10362,8 +10362,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HOUNDOOM_MEGA] =
-	{
+	[SPECIES_HOUNDOOM_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10374,8 +10374,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYRANITAR_MEGA] =
-	{
+	[SPECIES_TYRANITAR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10386,8 +10386,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SCEPTILE_MEGA] =
-	{
+	[SPECIES_SCEPTILE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10398,8 +10398,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BLAZIKEN_MEGA] =
-	{
+	[SPECIES_BLAZIKEN_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10410,8 +10410,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SWAMPERT_MEGA] =
-	{
+	[SPECIES_SWAMPERT_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10422,8 +10422,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GARDEVOIR_MEGA] =
-	{
+	[SPECIES_GARDEVOIR_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10434,8 +10434,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SABLEYE_MEGA] =
-	{
+	[SPECIES_SABLEYE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10446,8 +10446,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAWILE_MEGA] =
-	{
+	[SPECIES_MAWILE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10458,8 +10458,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AGGRON_MEGA] =
-	{
+	[SPECIES_AGGRON_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10470,8 +10470,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEDICHAM_MEGA] =
-	{
+	[SPECIES_MEDICHAM_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10482,8 +10482,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MANECTRIC_MEGA] =
-	{
+	[SPECIES_MANECTRIC_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10494,8 +10494,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHARPEDO_MEGA] =
-	{
+	[SPECIES_SHARPEDO_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10506,8 +10506,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CAMERUPT_MEGA] =
-	{
+	[SPECIES_CAMERUPT_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10518,8 +10518,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ALTARIA_MEGA] =
-	{
+	[SPECIES_ALTARIA_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10530,8 +10530,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BANETTE_MEGA] =
-	{
+	[SPECIES_BANETTE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10542,8 +10542,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ABSOL_MEGA] =
-	{
+	[SPECIES_ABSOL_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10554,8 +10554,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GLALIE_MEGA] =
-	{
+	[SPECIES_GLALIE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10566,8 +10566,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SALAMENCE_MEGA] =
-	{
+	[SPECIES_SALAMENCE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10578,8 +10578,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_METAGROSS_MEGA] =
-	{
+	[SPECIES_METAGROSS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10590,8 +10590,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LATIAS_MEGA] =
-	{
+	[SPECIES_LATIAS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10602,8 +10602,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LATIOS_MEGA] =
-	{
+	[SPECIES_LATIOS_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10614,8 +10614,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GROUDON_PRIMAL] =
-	{
+	[SPECIES_GROUDON_PRIMAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10626,8 +10626,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KYOGRE_PRIMAL] =
-	{
+	[SPECIES_KYOGRE_PRIMAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10638,8 +10638,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RAYQUAZA_MEGA] =
-	{
+	[SPECIES_RAYQUAZA_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10650,8 +10650,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LOPUNNY_MEGA] =
-	{
+	[SPECIES_LOPUNNY_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10662,8 +10662,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GARCHOMP_MEGA] =
-	{
+	[SPECIES_GARCHOMP_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10674,8 +10674,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUCARIO_MEGA] =
-	{
+	[SPECIES_LUCARIO_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10686,8 +10686,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ABOMASNOW_MEGA] =
-	{
+	[SPECIES_ABOMASNOW_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10698,8 +10698,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GALLADE_MEGA] =
-	{
+	[SPECIES_GALLADE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10710,8 +10710,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_AUDINO_MEGA] =
-	{
+	[SPECIES_AUDINO_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10722,8 +10722,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIANCIE_MEGA] =
-	{
+	[SPECIES_DIANCIE_MEGA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10734,8 +10734,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIALGA_PRIMAL] =
-	{
+	[SPECIES_DIALGA_PRIMAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10746,8 +10746,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PALKIA_PRIMAL] =
-	{
+	[SPECIES_PALKIA_PRIMAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10758,8 +10758,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_ARCHIPELAGO] =
-	{
+	[SPECIES_VIVILLON_ARCHIPELAGO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10770,8 +10770,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_CONTINENTAL] =
-	{
+	[SPECIES_VIVILLON_CONTINENTAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10782,8 +10782,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_ELEGANT] =
-	{
+	[SPECIES_VIVILLON_ELEGANT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10794,8 +10794,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_GARDEN] =
-	{
+	[SPECIES_VIVILLON_GARDEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10806,8 +10806,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_HIGH_PLAINS] =
-	{
+	[SPECIES_VIVILLON_HIGH_PLAINS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10818,8 +10818,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_ICY_SNOW] =
-	{
+	[SPECIES_VIVILLON_ICY_SNOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10830,8 +10830,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_JUNGLE] =
-	{
+	[SPECIES_VIVILLON_JUNGLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10842,8 +10842,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_MARINE] =
-	{
+	[SPECIES_VIVILLON_MARINE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10854,8 +10854,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_MODERN] =
-	{
+	[SPECIES_VIVILLON_MODERN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10866,8 +10866,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_MONSOON] =
-	{
+	[SPECIES_VIVILLON_MONSOON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10878,8 +10878,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_OCEAN] =
-	{
+	[SPECIES_VIVILLON_OCEAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10890,8 +10890,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_POKEBALL] =
-	{
+	[SPECIES_VIVILLON_POKEBALL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10902,8 +10902,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_POLAR] =
-	{
+	[SPECIES_VIVILLON_POLAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10914,8 +10914,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_RIVER] =
-	{
+	[SPECIES_VIVILLON_RIVER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10926,8 +10926,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_SANDSTORM] =
-	{
+	[SPECIES_VIVILLON_SANDSTORM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10938,8 +10938,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_SAVANNA] =
-	{
+	[SPECIES_VIVILLON_SAVANNA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10950,8 +10950,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_SUN] =
-	{
+	[SPECIES_VIVILLON_SUN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10962,8 +10962,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIVILLON_TUNDRA] =
-	{
+	[SPECIES_VIVILLON_TUNDRA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10974,8 +10974,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROWLET] =
-	{
+	[SPECIES_ROWLET] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10986,8 +10986,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DARTRIX] =
-	{
+	[SPECIES_DARTRIX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -10998,8 +10998,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DECIDUEYE] =
-	{
+	[SPECIES_DECIDUEYE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11010,8 +11010,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LITTEN] =
-	{
+	[SPECIES_LITTEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11022,8 +11022,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TORRACAT] =
-	{
+	[SPECIES_TORRACAT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11034,8 +11034,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_INCINEROAR] =
-	{
+	[SPECIES_INCINEROAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11046,8 +11046,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_POPPLIO] =
-	{
+	[SPECIES_POPPLIO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11058,8 +11058,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BRIONNE] =
-	{
+	[SPECIES_BRIONNE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11070,8 +11070,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PRIMARINA] =
-	{
+	[SPECIES_PRIMARINA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11082,8 +11082,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PIKIPEK] =
-	{
+	[SPECIES_PIKIPEK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11094,8 +11094,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TRUMBEAK] =
-	{
+	[SPECIES_TRUMBEAK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11106,8 +11106,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TOUCANNON] =
-	{
+	[SPECIES_TOUCANNON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11118,8 +11118,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_YUNGOOS] =
-	{
+	[SPECIES_YUNGOOS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11130,8 +11130,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GUMSHOOS] =
-	{
+	[SPECIES_GUMSHOOS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11142,8 +11142,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GRUBBIN] =
-	{
+	[SPECIES_GRUBBIN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11154,8 +11154,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CHARJABUG] =
-	{
+	[SPECIES_CHARJABUG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11166,8 +11166,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VIKAVOLT] =
-	{
+	[SPECIES_VIKAVOLT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11178,8 +11178,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRABRAWLER] =
-	{
+	[SPECIES_CRABRAWLER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11190,8 +11190,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CRABOMINABLE] =
-	{
+	[SPECIES_CRABOMINABLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11202,8 +11202,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ORICORIO] =
-	{
+	[SPECIES_ORICORIO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11214,8 +11214,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CUTIEFLY] =
-	{
+	[SPECIES_CUTIEFLY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11226,8 +11226,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RIBOMBEE] =
-	{
+	[SPECIES_RIBOMBEE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11238,8 +11238,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ROCKRUFF] =
-	{
+	[SPECIES_ROCKRUFF] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11250,8 +11250,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LYCANROC] =
-	{
+	[SPECIES_LYCANROC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11262,8 +11262,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WISHIWASHI] =
-	{
+	[SPECIES_WISHIWASHI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11274,8 +11274,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAREANIE] =
-	{
+	[SPECIES_MAREANIE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11286,8 +11286,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TOXAPEX] =
-	{
+	[SPECIES_TOXAPEX] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11298,8 +11298,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUDBRAY] =
-	{
+	[SPECIES_MUDBRAY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11310,8 +11310,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUDSDALE] =
-	{
+	[SPECIES_MUDSDALE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11322,8 +11322,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEWPIDER] =
-	{
+	[SPECIES_DEWPIDER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11334,8 +11334,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ARAQUANID] =
-	{
+	[SPECIES_ARAQUANID] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11346,8 +11346,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_FOMANTIS] =
-	{
+	[SPECIES_FOMANTIS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11358,8 +11358,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LURANTIS] =
-	{
+	[SPECIES_LURANTIS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11370,8 +11370,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MORELULL] =
-	{
+	[SPECIES_MORELULL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11382,8 +11382,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SHIINOTIC] =
-	{
+	[SPECIES_SHIINOTIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11394,8 +11394,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SALANDIT] =
-	{
+	[SPECIES_SALANDIT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11406,8 +11406,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SALAZZLE] =
-	{
+	[SPECIES_SALAZZLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11418,8 +11418,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STUFFUL] =
-	{
+	[SPECIES_STUFFUL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11430,8 +11430,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BEWEAR] =
-	{
+	[SPECIES_BEWEAR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11442,8 +11442,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BOUNSWEET] =
-	{
+	[SPECIES_BOUNSWEET] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11454,8 +11454,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STEENEE] =
-	{
+	[SPECIES_STEENEE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11466,8 +11466,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TSAREENA] =
-	{
+	[SPECIES_TSAREENA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11478,8 +11478,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COMFEY] =
-	{
+	[SPECIES_COMFEY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11490,8 +11490,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ORANGURU] =
-	{
+	[SPECIES_ORANGURU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11502,8 +11502,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PASSIMIAN] =
-	{
+	[SPECIES_PASSIMIAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11514,8 +11514,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WIMPOD] =
-	{
+	[SPECIES_WIMPOD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11526,8 +11526,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOLISOPOD] =
-	{
+	[SPECIES_GOLISOPOD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11538,8 +11538,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SANDYGAST] =
-	{
+	[SPECIES_SANDYGAST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11550,8 +11550,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PALOSSAND] =
-	{
+	[SPECIES_PALOSSAND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11562,8 +11562,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PYUKUMUKU] =
-	{
+	[SPECIES_PYUKUMUKU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11574,8 +11574,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TYPE_NULL] =
-	{
+	[SPECIES_TYPE_NULL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11586,8 +11586,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY] =
-	{
+	[SPECIES_SILVALLY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11598,8 +11598,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_SHIELD] =
-	{
+	[SPECIES_MINIOR_SHIELD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11610,8 +11610,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KOMALA] =
-	{
+	[SPECIES_KOMALA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11622,8 +11622,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TURTONATOR] =
-	{
+	[SPECIES_TURTONATOR] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11634,8 +11634,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TOGEDEMARU] =
-	{
+	[SPECIES_TOGEDEMARU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11646,8 +11646,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MIMIKYU] =
-	{
+	[SPECIES_MIMIKYU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11658,8 +11658,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BRUXISH] =
-	{
+	[SPECIES_BRUXISH] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11670,8 +11670,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DRAMPA] =
-	{
+	[SPECIES_DRAMPA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11682,8 +11682,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DHELMISE] =
-	{
+	[SPECIES_DHELMISE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11694,8 +11694,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_JANGMO_O] =
-	{
+	[SPECIES_JANGMO_O] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11706,8 +11706,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_HAKAMO_O] =
-	{
+	[SPECIES_HAKAMO_O] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11718,8 +11718,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KOMMO_O] =
-	{
+	[SPECIES_KOMMO_O] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11730,8 +11730,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAPU_KOKO] =
-	{
+	[SPECIES_TAPU_KOKO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11742,8 +11742,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAPU_LELE] =
-	{
+	[SPECIES_TAPU_LELE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11754,8 +11754,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAPU_BULU] =
-	{
+	[SPECIES_TAPU_BULU] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11766,8 +11766,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_TAPU_FINI] =
-	{
+	[SPECIES_TAPU_FINI] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11778,8 +11778,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COSMOG] =
-	{
+	[SPECIES_COSMOG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11790,8 +11790,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_COSMOEM] =
-	{
+	[SPECIES_COSMOEM] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11802,8 +11802,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SOLGALEO] =
-	{
+	[SPECIES_SOLGALEO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11814,8 +11814,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LUNALA] =
-	{
+	[SPECIES_LUNALA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11826,8 +11826,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NIHILEGO] =
-	{
+	[SPECIES_NIHILEGO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11838,8 +11838,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BUZZWOLE] =
-	{
+	[SPECIES_BUZZWOLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11850,8 +11850,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PHEROMOSA] =
-	{
+	[SPECIES_PHEROMOSA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11862,8 +11862,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_XURKITREE] =
-	{
+	[SPECIES_XURKITREE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11874,8 +11874,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CELESTEELA] =
-	{
+	[SPECIES_CELESTEELA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11886,8 +11886,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_KARTANA] =
-	{
+	[SPECIES_KARTANA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11898,8 +11898,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GUZZLORD] =
-	{
+	[SPECIES_GUZZLORD] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11910,8 +11910,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA] =
-	{
+	[SPECIES_NECROZMA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11922,8 +11922,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAGEARNA] =
-	{
+	[SPECIES_MAGEARNA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11934,8 +11934,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MARSHADOW] =
-	{
+	[SPECIES_MARSHADOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11946,8 +11946,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RATTATA_A] =
-	{
+	[SPECIES_RATTATA_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11958,8 +11958,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RATICATE_A] =
-	{
+	[SPECIES_RATICATE_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11970,8 +11970,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_RAICHU_A] =
-	{
+	[SPECIES_RAICHU_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11982,8 +11982,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SANDSHREW_A] =
-	{
+	[SPECIES_SANDSHREW_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -11994,8 +11994,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SANDSLASH_A] =
-	{
+	[SPECIES_SANDSLASH_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12006,8 +12006,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_VULPIX_A] =
-	{
+	[SPECIES_VULPIX_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12018,8 +12018,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NINETALES_A] =
-	{
+	[SPECIES_NINETALES_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12030,8 +12030,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DIGLETT_A] =
-	{
+	[SPECIES_DIGLETT_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12042,8 +12042,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DUGTRIO_A] =
-	{
+	[SPECIES_DUGTRIO_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12054,8 +12054,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MEOWTH_A] =
-	{
+	[SPECIES_MEOWTH_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12066,8 +12066,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_PERSIAN_A] =
-	{
+	[SPECIES_PERSIAN_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12078,8 +12078,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GEODUDE_A] =
-	{
+	[SPECIES_GEODUDE_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12090,8 +12090,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GRAVELER_A] =
-	{
+	[SPECIES_GRAVELER_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12102,8 +12102,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GOLEM_A] =
-	{
+	[SPECIES_GOLEM_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12114,8 +12114,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_GRIMER_A] =
-	{
+	[SPECIES_GRIMER_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12126,8 +12126,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MUK_A] =
-	{
+	[SPECIES_MUK_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12138,8 +12138,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EXEGGCUTE_A] =
-	{
+	[SPECIES_EXEGGCUTE_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12150,8 +12150,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_EXEGGUTOR_A] =
-	{
+	[SPECIES_EXEGGUTOR_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12162,8 +12162,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_CUBONE_A] =
-	{
+	[SPECIES_CUBONE_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12174,8 +12174,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAROWAK_A] =
-	{
+	[SPECIES_MAROWAK_A] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12186,8 +12186,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEOXYS_ATTACK] =
-	{
+	[SPECIES_DEOXYS_ATTACK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12198,8 +12198,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEOXYS_DEFENSE] =
-	{
+	[SPECIES_DEOXYS_DEFENSE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12210,8 +12210,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_DEOXYS_SPEED] =
-	{
+	[SPECIES_DEOXYS_SPEED] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12222,8 +12222,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ORICORIO_Y] =
-	{
+	[SPECIES_ORICORIO_Y] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12234,8 +12234,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ORICORIO_P] =
-	{
+	[SPECIES_ORICORIO_P] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12246,8 +12246,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ORICORIO_S] =
-	{
+	[SPECIES_ORICORIO_S] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12258,8 +12258,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LYCANROC_N] =
-	{
+	[SPECIES_LYCANROC_N] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12270,8 +12270,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_WISHIWASHI_S] =
-	{
+	[SPECIES_WISHIWASHI_S] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12282,8 +12282,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_FIGHT] =
-	{
+	[SPECIES_SILVALLY_FIGHT] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12294,8 +12294,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_FLYING] =
-	{
+	[SPECIES_SILVALLY_FLYING] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12306,8 +12306,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_POISON] =
-	{
+	[SPECIES_SILVALLY_POISON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12318,8 +12318,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_GROUND] =
-	{
+	[SPECIES_SILVALLY_GROUND] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12330,8 +12330,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_ROCK] =
-	{
+	[SPECIES_SILVALLY_ROCK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12342,8 +12342,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_BUG] =
-	{
+	[SPECIES_SILVALLY_BUG] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12354,8 +12354,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_GHOST] =
-	{
+	[SPECIES_SILVALLY_GHOST] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12366,8 +12366,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_STEEL] =
-	{
+	[SPECIES_SILVALLY_STEEL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12378,8 +12378,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_FIRE] =
-	{
+	[SPECIES_SILVALLY_FIRE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12390,8 +12390,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_WATER] =
-	{
+	[SPECIES_SILVALLY_WATER] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12402,8 +12402,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_GRASS] =
-	{
+	[SPECIES_SILVALLY_GRASS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12414,8 +12414,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_ELECTRIC] =
-	{
+	[SPECIES_SILVALLY_ELECTRIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12426,8 +12426,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_PSYCHIC] =
-	{
+	[SPECIES_SILVALLY_PSYCHIC] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12438,8 +12438,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_ICE] =
-	{
+	[SPECIES_SILVALLY_ICE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12450,8 +12450,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_DRAGON] =
-	{
+	[SPECIES_SILVALLY_DRAGON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12462,8 +12462,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_DARK] =
-	{
+	[SPECIES_SILVALLY_DARK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12474,8 +12474,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_SILVALLY_FAIRY] =
-	{
+	[SPECIES_SILVALLY_FAIRY] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12486,8 +12486,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_RED] =
-	{
+	[SPECIES_MINIOR_RED] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12498,8 +12498,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_BLUE] =
-	{
+	[SPECIES_MINIOR_BLUE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12510,8 +12510,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_ORANGE] =
-	{
+	[SPECIES_MINIOR_ORANGE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12522,8 +12522,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_YELLOW] =
-	{
+	[SPECIES_MINIOR_YELLOW] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12534,8 +12534,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_INDIGO] =
-	{
+	[SPECIES_MINIOR_INDIGO] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12546,8 +12546,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_GREEN] =
-	{
+	[SPECIES_MINIOR_GREEN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12558,8 +12558,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MINIOR_VIOLET] =
-	{
+	[SPECIES_MINIOR_VIOLET] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12570,8 +12570,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MIMIKYU_BUSTED] =
-	{
+	[SPECIES_MIMIKYU_BUSTED] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12582,8 +12582,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MAGEARNA_P] =
-	{
+	[SPECIES_MAGEARNA_P] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12594,8 +12594,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_POIPOLE] =
-	{
+	[SPECIES_POIPOLE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12606,8 +12606,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NAGANADEL] =
-	{
+	[SPECIES_NAGANADEL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12618,8 +12618,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_STAKATAKA] =
-	{
+	[SPECIES_STAKATAKA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12630,8 +12630,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_BLACEPHALON] =
-	{
+	[SPECIES_BLACEPHALON] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12642,8 +12642,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_ZERAORA] =
-	{
+	[SPECIES_ZERAORA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12654,8 +12654,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA_DUSK_MANE] =
-	{
+	[SPECIES_NECROZMA_DUSK_MANE] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12666,8 +12666,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA_DAWN_WINGS] =
-	{
+	[SPECIES_NECROZMA_DAWN_WINGS] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12678,8 +12678,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_NECROZMA_ULTRA] =
-	{
+	[SPECIES_NECROZMA_ULTRA] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12690,8 +12690,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_LYCANROC_DUSK] =
-	{
+	[SPECIES_LYCANROC_DUSK] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12702,8 +12702,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MELTAN] =
-	{
+	[SPECIES_MELTAN] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12714,8 +12714,8 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.sustain = 0xff,
 		.release = 0x0,
 	},
-	[SPECIES_MELMETAL] =
-	{
+	[SPECIES_MELMETAL] = 
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12727,7 +12727,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_SURFING] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12739,7 +12739,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_FLYING] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12751,7 +12751,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_COSPLAY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12763,7 +12763,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_LIBRE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12775,7 +12775,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_POP_STAR] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12787,7 +12787,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_ROCK_STAR] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12799,7 +12799,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_BELLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12811,7 +12811,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_PHD] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12823,7 +12823,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_ORIGINAL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12835,7 +12835,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_HOENN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12847,7 +12847,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_SINNOH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12859,7 +12859,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_UNOVA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12871,7 +12871,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_KALOS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12883,7 +12883,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_ALOLA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12895,7 +12895,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_CAP_PARTNER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12907,7 +12907,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PICHU_SPIKY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12919,7 +12919,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_XERNEAS_NATURAL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12931,7 +12931,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GROOKEY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12943,7 +12943,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_THWACKEY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12955,7 +12955,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_RILLABOOM] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12967,7 +12967,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SCORBUNNY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12979,7 +12979,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_RABOOT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -12991,7 +12991,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CINDERACE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13003,7 +13003,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SOBBLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13015,7 +13015,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DRIZZILE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13027,7 +13027,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_INTELEON] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13039,7 +13039,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SKWOVET] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13051,7 +13051,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GREEDENT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13063,7 +13063,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ROOKIDEE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13075,7 +13075,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CORVISQUIRE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13087,7 +13087,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CORVIKNIGHT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13099,7 +13099,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_BLIPBUG] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13111,7 +13111,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DOTTLER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13123,7 +13123,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ORBEETLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13135,7 +13135,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_NICKIT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13147,7 +13147,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_THIEVUL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13159,7 +13159,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GOSSIFLEUR] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13171,7 +13171,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ELDEGOSS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13183,7 +13183,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_WOOLOO] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13195,7 +13195,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DUBWOOL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13207,7 +13207,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CHEWTLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13219,7 +13219,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DREDNAW] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13231,7 +13231,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_YAMPER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13243,7 +13243,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_BOLTUND] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13255,7 +13255,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ROLYCOLY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13267,7 +13267,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CARKOL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13279,7 +13279,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_COALOSSAL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13291,7 +13291,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_APPLIN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13303,7 +13303,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_FLAPPLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13315,7 +13315,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_APPLETUN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13327,7 +13327,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SILICOBRA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13339,7 +13339,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SANDACONDA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13351,7 +13351,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CRAMORANT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13363,7 +13363,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ARROKUDA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13375,7 +13375,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_BARRASKEWDA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13387,7 +13387,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_TOXEL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13399,7 +13399,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_TOXTRICITY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13411,7 +13411,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SIZZLIPEDE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13423,7 +13423,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CENTISKORCH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13435,7 +13435,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CLOBBOPUS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13447,7 +13447,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GRAPPLOCT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13459,7 +13459,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SINISTEA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13471,7 +13471,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_POLTEAGEIST] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13483,7 +13483,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_HATENNA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13495,7 +13495,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_HATTREM] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13507,7 +13507,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_HATTERENE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13519,7 +13519,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_IMPIDIMP] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13531,7 +13531,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MORGREM] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13543,7 +13543,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GRIMMSNARL] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13555,7 +13555,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_OBSTAGOON] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13567,7 +13567,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PERRSERKER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13579,7 +13579,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CURSOLA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13591,7 +13591,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SIRFETCHD] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13603,7 +13603,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MR_RIME] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13615,7 +13615,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_RUNERIGUS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13627,7 +13627,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MILCERY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13639,7 +13639,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_STRAWBERRY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13651,7 +13651,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_FALINKS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13663,7 +13663,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PINCURCHIN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13675,7 +13675,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SNOM] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13687,7 +13687,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_FROSMOTH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13699,7 +13699,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_STONJOURNER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13711,7 +13711,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_EISCUE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13723,7 +13723,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_INDEEDEE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13735,7 +13735,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MORPEKO] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13747,7 +13747,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CUFANT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13759,7 +13759,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_COPPERAJAH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13771,7 +13771,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DRACOZOLT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13783,7 +13783,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ARCTOZOLT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13795,7 +13795,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DRACOVISH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13807,7 +13807,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ARCTOVISH] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13819,7 +13819,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DURALUDON] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13831,7 +13831,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DREEPY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13843,7 +13843,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DRAKLOAK] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13855,7 +13855,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DRAGAPULT] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13867,7 +13867,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZACIAN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13879,7 +13879,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZAMAZENTA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13891,7 +13891,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ETERNATUS] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13903,7 +13903,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_KUBFU] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13915,7 +13915,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_URSHIFU_SINGLE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13927,7 +13927,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZARUDE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13939,7 +13939,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_REGIELEKI] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13951,7 +13951,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_REGIDRAGO] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13963,7 +13963,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GLASTRIER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13975,7 +13975,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SPECTRIER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13987,7 +13987,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CALYREX] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -13999,7 +13999,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CRAMORANT_GULPING] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14011,7 +14011,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CRAMORANT_GORGING] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14023,7 +14023,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_TOXTRICITY_LOW_KEY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14035,7 +14035,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SINISTEA_CHIPPED] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14047,7 +14047,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_POLTEAGEIST_CHIPPED] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14059,7 +14059,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_BERRY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14071,7 +14071,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_CLOVER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14083,7 +14083,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_FLOWER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14095,7 +14095,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_LOVE] =
-	{
+	{	
 		.type = 0x30,
 				.key = 0x3c,
 		.length = 0x0,
@@ -14107,7 +14107,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_RIBBON] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14119,7 +14119,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_STAR] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14131,7 +14131,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_EISCUE_NOICE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14143,7 +14143,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_INDEEDEE_FEMALE] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14155,7 +14155,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MORPEKO_HANGRY] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14167,7 +14167,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZACIAN_CROWNED] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14179,7 +14179,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZAMAZENTA_CROWNED] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14191,7 +14191,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ETERNATUS_ETERNAMAX] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14203,7 +14203,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_URSHIFU_RAPID] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14213,9 +14213,9 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	},
+	}, 
 	[SPECIES_ZARUDE_DADA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14225,9 +14225,9 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
-	},
+	}, 
 	[SPECIES_CALYREX_ICE_RIDER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14239,7 +14239,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CALYREX_SHADOW_RIDER] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14251,7 +14251,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MEOWTH_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14263,7 +14263,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PONYTA_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14275,7 +14275,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_RAPIDASH_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14287,7 +14287,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SLOWPOKE_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14299,7 +14299,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SLOWBRO_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14311,7 +14311,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_FARFETCHD_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14323,7 +14323,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_WEEZING_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14335,7 +14335,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MR_MIME_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14347,7 +14347,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ARTICUNO_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14359,7 +14359,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZAPDOS_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14371,7 +14371,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MOLTRES_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14383,7 +14383,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SLOWKING_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14395,7 +14395,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CORSOLA_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14407,7 +14407,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ZIGZAGOON_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14419,19 +14419,19 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_LINOONE_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
 		.pan_sweep = 0x0,
-		.wav = (u8*) 0x868c884,
+		.wav = (u8*) 0x868c884,	
 		.attack = 0xff,
 		.decay = 0x0,
 		.sustain = 0xff,
 		.release = 0x0,
 	},
 	[SPECIES_DARUMAKA_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14443,7 +14443,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DARMANITAN_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14455,7 +14455,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DARMANITAN_G_ZEN] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14467,7 +14467,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_YAMASK_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14479,7 +14479,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_STUNFISK_G] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14491,7 +14491,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_VENUSAUR_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14503,7 +14503,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CHARIZARD_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14515,7 +14515,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_BLASTOISE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14527,7 +14527,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_BUTTERFREE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14539,7 +14539,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_PIKACHU_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14551,7 +14551,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MEOWTH_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14563,7 +14563,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MACHAMP_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14575,7 +14575,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GENGAR_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14587,7 +14587,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_KINGLER_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14599,7 +14599,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_LAPRAS_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14611,7 +14611,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_EEVEE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14623,7 +14623,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SNORLAX_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14635,7 +14635,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GARBODOR_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14647,7 +14647,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_MELMETAL_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14659,7 +14659,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_RILLABOOM_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14671,7 +14671,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CINDERACE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14683,7 +14683,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_INTELEON_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14695,7 +14695,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CORVIKNIGHT_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14707,7 +14707,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ORBEETLE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14719,7 +14719,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DREDNAW_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14731,7 +14731,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_COALOSSAL_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14743,7 +14743,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_FLAPPLE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14755,7 +14755,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_APPLETUN_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14767,7 +14767,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_SANDACONDA_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14779,7 +14779,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_TOXTRICITY_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14791,7 +14791,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_TOXTRICITY_LOW_KEY_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14803,7 +14803,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_CENTISKORCH_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14815,7 +14815,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_HATTERENE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14827,7 +14827,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_GRIMMSNARL_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14839,7 +14839,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_ALCREMIE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14851,7 +14851,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_COPPERAJAH_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14863,7 +14863,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_DURALUDON_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14875,7 +14875,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_URSHIFU_SINGLE_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,
@@ -14887,7 +14887,7 @@ const struct ToneData gCryTable2[NUM_SPECIES] =
 		.release = 0x0,
 	},
 	[SPECIES_URSHIFU_RAPID_GIGA] =
-	{
+	{	
 		.type = 0x30,
 		.key = 0x3c,
 		.length = 0x0,

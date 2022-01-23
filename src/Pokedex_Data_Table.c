@@ -4,7 +4,7 @@
 
 const struct PokedexEntry gPokedexEntries[NATIONAL_DEX_COUNT] = {
     [NATIONAL_DEX_NONE] =
-        {}
+        {
             .categoryName = {_U, _n, _k, _n, _o, _w, _n, _END, _SPACE, _SPACE, _SPACE, _SPACE},
             .height = 0,
             .weight = 0,

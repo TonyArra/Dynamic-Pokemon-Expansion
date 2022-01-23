@@ -3,6 +3,7 @@
 
 const u8* const gMonIconTable[NUM_SPECIES] =
 {
+	[SPECIES_BULLFROCK] =            gIconSprite1234BullfrockTiles,
 	[SPECIES_NONE] =                 gIconSprite000NoneTiles,
 	[SPECIES_BULBASAUR] =            gIconSprite001BulbasaurTiles,
 	[SPECIES_IVYSAUR] =              gIconSprite002IvysaurTiles,

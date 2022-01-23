@@ -2,7 +2,12 @@
 #include "../include/graphics.h"
 
 const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
-	{
+{
+		[SPECIES_BULLFROCK] =
+		{
+			.size = 0x0,
+			.y_offset = 0xa,
+		},
 		[SPECIES_NONE] =
 			{
 				.size = 0x88,

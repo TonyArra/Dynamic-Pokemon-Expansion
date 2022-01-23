@@ -11,6 +11,39 @@ const struct BaseStats gBaseStats[] =
 {
 	[SPECIES_NONE] = {0},
 
+	[SPECIES_BULLFROCK] =
+	{
+		.baseHP 		= 45,
+		.baseAttack 	= 49,
+		.baseDefense 	= 49,
+		.baseSpAttack 	= 65,
+		.baseSpDefense 	= 65,
+		.baseSpeed 		= 45,
+		.type1 = TYPE_ROCK,
+		.type2 = TYPE_WATER,
+		.catchRate = 45,
+		.expYield = 64,
+		.evYield_HP 		= 0,
+		.evYield_Attack 	= 0,
+		.evYield_Defense 	= 0,
+		.evYield_SpAttack 	= 1,
+		.evYield_SpDefense 	= 0,
+		.evYield_Speed 		= 0,
+		.item1 = ITEM_NONE,
+		.item2 = ITEM_NONE,
+		.genderRatio = PERCENT_FEMALE(12.5),
+		.eggCycles = 20,
+		.friendship = 50,
+		.growthRate = GROWTH_MEDIUM_SLOW,
+		.eggGroup1 = EGG_GROUP_MONSTER,
+		.eggGroup2 = EGG_GROUP_GRASS,
+		.ability1 = ABILITY_OVERGROW,
+		.ability2 = ABILITY_NONE,
+		.safariZoneFleeRate = 0,
+		.hiddenAbility = ABILITY_CHLOROPHYLL,
+		.noFlip = TRUE,
+	},
+
 	[SPECIES_BULBASAUR] =
 	{
 		.baseHP 		= 45,
